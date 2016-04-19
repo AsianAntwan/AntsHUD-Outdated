@@ -2196,7 +2196,7 @@ Scheme
 			"1"
 			{
 			
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"32"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -2205,7 +2205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"32"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2215,7 +2215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"32"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -2224,7 +2224,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"32"
 				"italic"	"1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2234,7 +2234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"32"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
@@ -2313,7 +2313,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Avenir"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -2323,7 +2323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Avenir"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -2343,7 +2343,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Avenir"
+				"name"			"AvenirLTStd-Medium"
 				"tall"			"14"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -2825,7 +2825,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"22"
 				"weight"	"900"
 			}
@@ -2834,7 +2834,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"18"
 				"weight"	"900"
 			}
@@ -2925,7 +2925,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
@@ -3565,7 +3565,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3576,7 +3576,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"NeutraDisp"
+				"name"		"Neutra Display Titling"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"

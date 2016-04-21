@@ -17,10 +17,10 @@
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"Health Hurt"
 	}
-	"Health NormalTeamIndicator"
+	"HPTeamIndicator"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"Health NormalBackgroundPanel1"
+		"fieldName"		"HPBackgroundPanel1"
 		"xpos"			"138"
 		"ypos"			"64"
 		"zpos"			"10"

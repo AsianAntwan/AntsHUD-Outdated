@@ -2,12 +2,12 @@
 {	
 	// player health data
 
-	//Change visible and enabled to "1" on "Health NormalBorderPanel1" and "Health NormalBorderPanel2" for team-colored cross.
+	//Change visible and enabled to "1" on "HPBorderPanel1" and "HPBorderPanel2" for team-colored cross.
 	
-	"Health NormalBorderPanel1"
+	"HPBorderPanel1"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"Health NormalBackgroundPanel1"
+		"fieldName"		"HPBackgroundPanel1"
 		"xpos"			"98"
 		"ypos"			"39"
 		"zpos"			"2"
@@ -28,10 +28,10 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 		"0"	
 	}
-	"Health NormalBorderPanel2"
+	"HPBorderPanel2"
 	{
 		"ControlName"		"CTFImagePanel"
-		"fieldName"		"Health NormalBackgroundPanel2"
+		"fieldName"		"HPBackgroundPanel2"
 		"xpos"			"91"
 		"ypos"			"46"
 		"zpos"			"2"

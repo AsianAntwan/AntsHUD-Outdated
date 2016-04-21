@@ -86,10 +86,10 @@
 		"visible"		"0"
 		"enabled"		"1"
 	}
-	"StopWatcHealth NormalointsLabel"
+	"StopWatchPointsLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"StopWatcHealth NormalointsLabel"
+		"fieldName"		"StopWatchPointsLabel"
 		"font"			"Avenir20"
 		"labelText"		"%pointslabel%"
 		"textAlignment"		"west"

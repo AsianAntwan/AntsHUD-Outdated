@@ -2,7 +2,7 @@
 {
  	"VersionNumber"
  	{
-		"label" "rayshud v2016.0317" 
+		"label" "AntsHUD v 2016.4.18" 
  		"subimage" ""
  		"OnlyAtMenu" "0"
  	}

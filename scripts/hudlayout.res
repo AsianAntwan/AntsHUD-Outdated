@@ -10,10 +10,10 @@
 
 	KnucklesCrosses
 	{
-		"visible" 		"1"
-		"enabled" 		"1"
+		"visible" 		"0"
+		"enabled" 		"0"
 		
-		"labelText"		"i"
+		"labelText"		""
 		
 		"controlName"	"CExLabel"
 		"fieldName"	 	"KnucklesCrosses"
@@ -1258,9 +1258,9 @@
 		"tall"	 "480"
 	}
 	
-	ItemQuickSwitcHealth Normalanel
+	ItemQuickSwitchPanel
 	{
-		"fieldName"				"ItemQuickSwitcHealth Normalanel"
+		"fieldName"				"ItemQuickSwitchPanel"
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"			"c-125"

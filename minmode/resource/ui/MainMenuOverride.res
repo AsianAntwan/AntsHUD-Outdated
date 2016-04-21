@@ -477,7 +477,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"240"
+		"xpos"			"244"
 		"ypos"			"141"
 		"zpos"			"12"
 		"wide"			"20"
@@ -579,7 +579,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -683,7 +683,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
 			"xpos"			"0"
-			"ypos"			"-8"
+			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"30"
 			"tall"			"30"
@@ -692,7 +692,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"q"
+			"labelText"		""
 			"font"			"Symbols"
 			"command"		"watch_stream"
 			"textAlignment"	"center"
@@ -711,32 +711,28 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"0 191 255 255"
+			"image_armedcolor"	"100 65 165 255"
 
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"cs-0.5"
-				"ypos"			"cs-0.5"
+				"xpos"			"3"
+				"ypos"			"4"
 				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
-				"visible"		"0"
-				"enabled"		"0"
+				"wide"			"24"
+				"tall"			"24"
+				"visible"		"1"
+				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_quests"
-
-				"proportionaltoparent"	"1"
-				"mouseinputenabled"	"0"
-				"keyboardinputenabled" "0"
+				"image"			"replay/thumbnails/twitch"
 			}		
 		}
 	}
-
+	
 	"StreamListPanel"
 	{
 		"ControlName"	"CTFStreamListPanel"
@@ -761,7 +757,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
 		"xpos"			"274"
-		"ypos"			"70"
+		"ypos"			"72"
 		"zpos"			"1"
 		"wide"			"30"
 		"tall"			"30"
@@ -797,7 +793,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"0 191 255 255"
@@ -1255,7 +1251,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"0 191 255 255"
@@ -1360,7 +1356,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"TanLight"
 			"image_armedcolor"	"Button Color"
@@ -1971,7 +1967,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"117 107 94 255"
 			"image_armedcolor"	"235 226 202 255"
@@ -2489,7 +2485,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"0 191 255 255"
@@ -2550,7 +2546,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"0 191 255 255"
@@ -2611,7 +2607,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"0 191 255 255"
@@ -2673,7 +2669,7 @@
 			
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Button Color"
-			"depressedFgColor_override" "Button Color"
+			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"0 191 255 255"
@@ -2858,10 +2854,10 @@
 		}	
 	}		
 	
-	"CoacHealth NormallayersButton"
+	"CoachPlayersButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"CoacHealth NormallayersButton"
+		"fieldName"		"CoachPlayersButton"
 		"xpos"			"185"
 		"ypos"			"445"
 		"zpos"			"5"

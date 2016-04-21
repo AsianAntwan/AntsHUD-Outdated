@@ -34,7 +34,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"NoBorder"
+		"border"				"CyanBorderThick"
 
 		"Background"
 		{

@@ -40,7 +40,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp36"
 		"xpos"			"10"
 		"ypos"			"48"
 		"zpos"			"2"
@@ -50,7 +50,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_NotBuilt"
+		"labelText"		"X"
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"

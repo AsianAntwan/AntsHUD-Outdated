@@ -10,8 +10,8 @@
 		"delta_item_x"			"0"
 		"delta_item_end_y"		"0"
 		"delta_lifetime"		"2"
-		"delta_item_font" "NeutraDispOutline24" 
-		"delta_item_font_big" "NeutraDispOutline24"
+		"delta_item_font"		"NeutraDispOutline24" 
+		"delta_item_font_big"	"NeutraDispOutline24"
 		"outline"				"1"
 
 	}
@@ -20,8 +20,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-138"
-		"ypos"			"263"
+		"xpos"			"c-188"
+		"ypos"			"288"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26"
@@ -30,15 +30,15 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"Last DamageHeal Info"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp32"
 	}
 	
 	"DamageAccountValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-137"
-		"ypos"			"264"
+		"xpos"			"c-187"
+		"ypos"			"289"
 		"zpos"			"1"
 		"wide"			"100"
 		"tall"			"26"
@@ -47,6 +47,7 @@
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
 		"fgcolor"		"TransparentBlack"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp32"
 	}
 }
+

@@ -442,7 +442,7 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"25 25 25 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -498,7 +498,7 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"25 25 25 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -581,7 +581,7 @@
 				
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"25 25 25 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -603,7 +603,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"DELETE"
@@ -639,7 +639,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#NoAction"
@@ -675,7 +675,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"SET STYLE"
@@ -711,7 +711,7 @@
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"DETAILS"
@@ -762,7 +762,7 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"25 25 25 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"

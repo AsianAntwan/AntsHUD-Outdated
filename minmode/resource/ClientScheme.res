@@ -1,61 +1,46 @@
-//
-// TRACKER SCHEME RESOURCE FILE
-//
-// sections:
-//		colors			- all the colors used by the scheme
-//		basesettings	- contains settings for app to use to draw controls
-//		fonts			- list of all the fonts used by app
-//		borders			- description of all the borders
-//
-//
+
 Scheme
 {
-	//Name - currently overriden in code
-	//{
-	//	"Name"	"ClientScheme"
-	//}
-
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{	
 	
-		"Tutorial Color"	"0 255 0 128"
+		//-----------------------------------------------------
+		// ahud Colors & Added Colors
+		//-----------------------------------------------------
+		
+		//Keep in mind that some HUD elements were taken from ahud
+		//hence the "ahud Colors" being here.
+		
+		"Crosshair"				"255 255 255 255"
+		"CrosshairDamage"		"0 255 0 255"		// For no damage flash, set to the
+													// same value as Crosshair
 	
+		"LowAmmo"				"255 0 0 200"	
+		
 		//antshud colors
 	
 		"Ammo In Clip"							"255 255 255 255"
 		"Ammo In Reserve"						"0 191 255 255"
-		"Ammo In Clip Low"						"255 255 255 255"
-		"Ammo In Reserve Low"					"0 191 255 255"
 		
 		//refers to watching stvs/killcam shots
 		"Spec Health Normal"					"255 255 255 255"
 		"Spec Health Buff"						"255 255 255 255"			
 		"Spec Health Hurt"						"255 255 255 255"
-		
-		//alternate colors for flashing values
-		"Alternate Spec Health Normal"						"235 226 202 255"
-		"Alternate Spec Health Buff"						"48 255 48 255"			
-		"Alternate Spec Health Hurt"						"255 153 0 255"
-		
+
 		//refers to player health/targetids
 		"Health Normal"							"255 255 255 255"
-		"Health Buff"							"255 255 255 255"
-		"Health Hurt"							"255 255 255 255"
+		"Health Buff"							"0 225 255 200"
+		"Health Hurt"							"255 0 0 200"
 		
-		//alternate colors for flashing values
-		"Alternate Health Normal"					"235 226 202 255"
-		"Alternate Health Buff"						"48 255 48 255"			
-		"Alternate Health Hurt"						"255 153 0 255"
-		
-		"Uber Bar Color"						"255 255 255 255"
+		"Uber Bar Color"						"0 191 255 255"
 
 		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
 		"Solid Color Uber"						"255 50 255 255"
 		
-		"Flashing Uber Color1"					"0 190 255 255"
+		"Flashing Uber Color1"					"0 191 255 255"
 		"Flashing Uber Color2"					"0 125 255 255"
-		//"Ubercharge Amount"						"255 255 255 255" // disabled temporarily; currently controlled by ammo in clip color
+		//"Ubercharge Amount"					"255 255 255 255" // disabled temporarily; currently controlled by ammo in clip color
 	
 		"Heal Numbers"							"0 191 255 255"
 		"Damage Numbers"						"255 255 0 255"
@@ -71,14 +56,14 @@ Scheme
 		"Inactive Tab"				"0 191 255 255"	
 		
 		"StatBar1"						"0 191 255 255"
-		"StatBar2"						"255 131 0 128"
-		"StatBar3"						"255 146 0 128"
-		"StatBar4"						"255 161 0 128"
-		"StatBar5"						"255 176 0 128"
-		"StatBar6"						"255 191 0 128"
-		"StatBar7"						"255 206 0 128"
-		"StatBar8"						"255 221 0 128"
-		"StatBar9"						"255 236 0 128"
+		"StatBar2"						"0 181 255 255"
+		"StatBar3"						"0 171 255 255"
+		"StatBar4"						"0 161 255 255"
+		"StatBar5"						"0 151 255 255"
+		"StatBar6"						"0 141 255 255"
+		"StatBar7"						"0 131 255 255"
+		"StatBar8"						"0 121 255 255"
+		"StatBar9"						"0 111 255 255"
 		
 		//item backdrop color, refers to background color when mousing over items
 		"ItemPanelBG"					"50 50 50 255"
@@ -86,7 +71,7 @@ Scheme
 		//Rainbow Uber Colors
 		
 			"ColorRed"						"255 0 0 255"
-			"ColorVermillion"						"255 64 0 255"
+			"ColorVermillion"				"255 64 0 255"
 			"ColorOrange"					"255 128 0 255"
 			"ColorYellow"					"255 255 0 255"
 			"ColorLime"						"128 255 0 255"
@@ -105,6 +90,10 @@ Scheme
 			"ColorWhite"					"255 255 255 255"
 			
 		//end antshud colors
+		
+		//-----------------------------------------------------
+		// HUD Colors
+		//-----------------------------------------------------
 			
 		// base colors
 		"Orange"			"Base Color"
@@ -131,15 +120,16 @@ Scheme
 		"GreenSolid"		 "76 107 34 255"	
 		
 		"Black"				"46 43 42 255"
-		"TransparentBlack"	"0 0 0 225"
+		"TransparentBlack"	"0 0 0 196"
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
-		"HUDBlueTeam"		"70 130 180 175"
-		"HUDRedTeam"		"205 50 50 175"
-		"HUDSpectator"		"124 124 124 127"
+		"HUDBlueTeam"		"70 130 160 175"
+		"HUDRedTeam"		"190 50 50 175"
+		"HUDSpectator"		"124 124 124 175"
 		"HUDBlueTeamSolid"	"70 130 180 255"
-		"HUDRedTeamSolid"	"205 50 50 255"
+		"HUDRedTeamSolid"	"190 50 50 255"
+		"Health Hurt"		"255 0 0 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"200 187 161 255"
 		"HudBlack"			"65 65 65 255"
@@ -171,7 +161,7 @@ Scheme
 		"HudTrainingHint"			"212 160 23 255"
 		
 		"TanDark"				"100 100 100 255"
-		"TanLessLight"			"165 165 165 255"
+		"TanLessLight"			"200 200 200 255"
 		"TanLight"				"255 255 255 255"
 		"TanDarker"				"60 60 60 255"
 		
@@ -304,33 +294,33 @@ Scheme
 		Replay.RenderDialog.BgColor							"17 17 17 255"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"Base Color"
+		Econ.Button.BgColor									"17 17 17 255"
 		Econ.Button.FgColor									"TanDark"
-		Econ.Button.ArmedBgColor							"25 25 25 255"
+		Econ.Button.ArmedBgColor							"Base Color"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"Base Color"
+		Econ.Button.DepressedBgColor						"17 17 17 255"
 		Econ.Button.DepressedFgColor						"TanDark"
 		
 		Econ.Button.PresetDefaultColorFg					"0 191 255 255"
 		Econ.Button.PresetArmedColorFg						"0 191 255 255"
 		Econ.Button.PresetDepressedColorFg					"0 191 255 255"
 		
-		Econ.Button.PresetDefaultColorBg					"Base Color"
-		Econ.Button.PresetArmedColorBg						"50 50 50 255"
-		Econ.Button.PresetDepressedColorBg					"Base Color"
+		Econ.Button.PresetDefaultColorBg					"17 17 17 255"
+		Econ.Button.PresetArmedColorBg						"Base Color"
+		Econ.Button.PresetDepressedColorBg					"17 17 17 255"
 		
 		Border.Bright					"NoBorder"		// the lit side of a control
 		Border.Dark						"NoBorder"		// the dark/unlit side of a control
 		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"Base Color"
+		Button.BgColor					"17 17 17 255"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"25 25 25 255"
+		Button.ArmedBgColor				"Base Color"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"Base Color"
 		Button.DepressedTextColor		"TanLight"
-		Button.DepressedBgColor			"25 25 25 255"
+		Button.DepressedBgColor			"17 17 17 255"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -542,6 +532,890 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
+		
+		//Crosshairs
+		
+		"size:10,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"10"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:11,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"11"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:12,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"12"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:13,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"13"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:14,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"14"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:15,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"15"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:16,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"16"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:17,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"17"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:18,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"18"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:19,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"19"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:20,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"20"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:21,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"21"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:22,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"22"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:23,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"23"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:24,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"24"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:25,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"25"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:26,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:27,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:28,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"28"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:29,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"29"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:30,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"30"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:31,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"31"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:32,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"32"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:33,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"33"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:34,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"34"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:35,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"35"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:36,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"36"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:37,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"37"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:38,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"38"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:39,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"39"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:40,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"40"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:41,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"41"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:42,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"42"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:43,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"43"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:44,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"44"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:45,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"45"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:46,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"46"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:47,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"47"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:48,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"48"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:49,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"49"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:50,outline:off"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"50"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size:12,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"12"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:13,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"13"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:14,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"14"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:15,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"15"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:16,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"16"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:17,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"17"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:18,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"18"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:19,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"19"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:20,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"20"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:21,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"21"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:22,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"22"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:23,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"23"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:24,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"24"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:25,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"25"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:26,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:27,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"26"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:28,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"28"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:29,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"29"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:30,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"30"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:31,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"31"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:32,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"32"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:33,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"33"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:34,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"34"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:35,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"35"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:36,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"36"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:37,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"37"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:38,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"38"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:39,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"39"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:40,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"40"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:41,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"41"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:42,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"42"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:43,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"43"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:44,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"44"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:45,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"45"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:46,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"46"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:47,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"47"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:48,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"48"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:49,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"49"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size:50,outline:on"
+		{
+			"1"
+			{
+				"name"	"KnucklesCrosses"
+				"tall"	"50"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		
 		"Default"
 		{
 			"1"
@@ -2713,385 +3587,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-
-		//hud xhairs
-		"xHairCircle"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		
-		"xHairCircleOutline"
-		{
-			"1"
-			{
-				"name"		"Courier New"
-				"tall"		"72"
-				"weight"	"0"
-				"antialias"	"1"
-				"outline"	"1"
-			}
-		}
-
-		"Crosshairs8"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"8"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs10"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"10"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs12"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"12"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs14"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"14"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs16"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"16"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs18"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-
-		"CrosshairsOutline18"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"18"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		
-		"Crosshairs20"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"20"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs22"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"22"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs24"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"CrosshairsOutline24"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"24"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		
-		"Crosshairs26"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"CrosshairsOutline26"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"26"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		
-		"Crosshairs28"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"28"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs30"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"30"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs32"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-
-		"CrosshairsOutline32"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"32"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		
-		"Crosshairs34"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"CrosshairsOutline34"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"34"
-			"weight" 		"0"
-			"antialias" 	"1"
-			"outline"		"1"
-			}
-		}
-		
-		"Crosshairs36"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"36"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs38"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"38"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Crosshairs40"
-		{
-			"1"
-			{
-			"name"			"Crosshairs"
-			"tall" 			"40"
-			"weight" 		"0"
-			"antialias" 	"1"
-			}
-		}
-		
-		"Symbol16"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		
-		"Symbol24"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		
-		"SymbolOutline24"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
-			}
-		}
-		
-		"Symbol32"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		
-		"Symbol40"
-		{
-			"1"
-			{
-			"name"			"Symbol"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWings16"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"16"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWings24"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWingsOutline24"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"24"
-			"weight"		"0"
-			"antialias"		"1"
-			"outline"		"1"
-			}
-		}
-		"KonrWings32"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"32"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		"KonrWings40"
-		{
-			"1"
-			{
-			"name"			"Garm3nFont"
-			"tall"			"40"
-			"weight"		"0"
-			"antialias"		"1"
-			}
-		}
-		
 		"Avenir7"
 		{
 			"1"
@@ -3434,6 +3929,16 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"NeutraDisp22"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "22"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"NeutraDisp24"
 		{
 			"1"
@@ -3444,23 +3949,23 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-		"NeutraDispOutline24"
-		{
-			"1"
-			{
-				"name"		 "Neutra Display Titling"
-				"tall" 		 "24"
-				"additive"	 "0"
-				"antialias"	 "1"
-				"outline"	 "1"
-			}
-		}
 		"NeutraDispOutline16"
 		{
 			"1"
 			{
 				"name"		 "Neutra Display Titling"
 				"tall" 		 "16"
+				"additive"	 "0"
+				"antialias"	 "1"
+				"outline"	 "1"
+			}
+		}
+		"NeutraDispOutline24"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "24"
 				"additive"	 "0"
 				"antialias"	 "1"
 				"outline"	 "1"
@@ -3513,6 +4018,26 @@ Scheme
 			{
 				"name"		 "Neutra Display Titling"
 				"tall" 		 "36"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"NeutraDisp37"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "37"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"NeutraDisp38"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "38"
 				"additive"	 "0"
 				"antialias"	 "1"
 			}
@@ -3577,7 +4102,7 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
-		"NeutraDisp56"
+		"NeutraDispMedic56"
 		{
 			"1"
 			{
@@ -3656,7 +4181,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3665,7 +4190,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3674,7 +4199,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3683,7 +4208,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3693,7 +4218,6 @@ Scheme
 			"inset" "0 0 0 0"
 			Left
 			{
-			
 				"1"
 				{
 					"color" "Base Color"
@@ -3702,42 +4226,26 @@ Scheme
 				"2"
 				{
 					"color" "Base Color"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 				"3"
 				{
 					"color" "Base Color"
-					"offset" "1 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "0 191 255 0"
 					"offset" "0 0"
 				}
-			}
-
-			Top
-			{
-				"1"
+				"4"
 				{
-					"color" "0 191 255 0"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
-			}
-
-			Bottom
-			{
-				"1"
+				"5"
 				{
-					"color" "0 191 255 0"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
 		}
+		
 		CyanBorderTabs
 		{
 			"inset" "0 0 1 1"
@@ -3745,27 +4253,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3774,27 +4282,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3803,27 +4311,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3835,27 +4343,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3864,27 +4372,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3893,27 +4401,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Base Color"
 					"offset" "4 1"
 				}
 			}
@@ -3925,7 +4433,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 4"
 				}
 			}
@@ -3934,7 +4442,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3943,7 +4451,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3952,7 +4460,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -3964,17 +4472,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "2 0"
 				}
 			}
@@ -3983,17 +4491,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "2 0"
 				}
 			}
@@ -4002,17 +4510,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "2 0"
 				}
 			}
@@ -4021,17 +4529,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "2 0"
 				}
 			}
@@ -4492,27 +5000,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "4 1"
 				}
 			}
@@ -4521,27 +5029,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "4 1"
 				}
 			}
@@ -4550,27 +5058,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "4 1"
 				}
 			}
@@ -4932,7 +5440,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4941,7 +5449,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4950,7 +5458,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4959,7 +5467,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4971,7 +5479,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4980,7 +5488,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4989,7 +5497,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -4998,7 +5506,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 191 255 255"
+					"color" "Blank"
 					"offset" "0 0"
 				}
 			}
@@ -6726,14 +7234,14 @@ Scheme
 		"7" // Main font
 		{
 		
-			"font" "resource/fonts/NeutraDisp.ttf"
-			"name" "NeutraDisp"
+			"font" "resource/fonts/Neutra Display Titling.ttf"
+			"name" "Neutra Display Titling"
 		}
 		"8" // Other Main Font
 		{
 		
-			"font" "resource/fonts/Avenir.ttf"
-			"name" "Avenir"
+			"font" "resource/fonts/AvenirLTStd-Medium.otf"
+			"name" "AvenirLTStd-Medium"
 		}
 		"9" // Tournament HUD block
 		{
@@ -6741,23 +7249,15 @@ Scheme
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"10" // Fog's xHairs
+		"10" //Crosshairs
 		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
+		
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
 		}
-		"11" // Thin Cross
-		{
-			"font" "resource/fonts/Symbol.ttf"
-			"name" "Symbol"
-		}
-		"12" // Konr Wings
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
-		}
-		"13"
-		{
+		"11"
+		
+		
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}

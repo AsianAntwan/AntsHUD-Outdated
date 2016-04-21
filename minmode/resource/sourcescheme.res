@@ -1,6 +1,3 @@
-//SourceScheme.res edited by Ants, originally by:
-// Doodles - DoodleHUD - http://doodlesstuff.com
-//
 #base "SourceSchemeBase.res"
 Scheme
 {

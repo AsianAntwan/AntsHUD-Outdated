@@ -1,5 +1,3 @@
-//tick 52000
-
 "Resource/UI/HudTournament.res"
 {
 	HudTournament
@@ -927,15 +925,15 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"40"
 		"tall"			"40"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../HUD/color_panel_red"
 
 		"src_corner_height"	"23"				// pixels inside the image
@@ -946,8 +944,8 @@
 		
 		"if_mvm" 
 		{
-			"visible"	"1"
-			"enabled"	"1"
+			"visible"	"0"
+			"enabled"	"0"
 			"xpos"		"c-20"
 		}
 
@@ -985,6 +983,7 @@
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
 		
 		"if_mvm" 
 		{

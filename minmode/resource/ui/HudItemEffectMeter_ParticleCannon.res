@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"c46"	[$WIN32]
+		"ypos"			"c80"	[$WIN32]
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"White"
@@ -37,13 +37,13 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"9999"
-		"ypos"					"9999"
+		"xpos"					"0"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"150"
-		"tall"					"8"
+		"tall"					"10"
 		"autoResize"			"1"
-		"pinCorner"				"2"
+		"pinCorner"				"3"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
@@ -51,8 +51,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Avenir12"
-		"fgcolor_override"		"150 150 150 255"
+		"font"					"NeutraDisp16"
+		"fgcolor_override"		"0 191 255 255"
 	}
 
 	"ItemEffectMeter"
@@ -60,11 +60,11 @@
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
-		"xpos"					"15"
-		"ypos"					"0"
+		"xpos"					"0"
+		"ypos"					"13"
 		"zpos"					"2"
-		"wide"					"120"
-		"tall"					"5"				
+		"wide"					"150"
+		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

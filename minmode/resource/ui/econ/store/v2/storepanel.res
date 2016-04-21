@@ -101,7 +101,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"25 25 25 255"
 		}					
 	
 	"Sheet"

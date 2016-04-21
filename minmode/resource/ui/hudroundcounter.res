@@ -52,16 +52,39 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
-		"xpos"			"cs-0.5"
+		"xpos"			"c-40"
+		"ypos"			"9"
+		"zpos"			"5"
+		"wide"			"80"
+		"tall"			"14"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"Black"
+		"scaleimage"			"1"
+	}
+	"BlueTeamBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueTeamBackground"
+		"xpos"			"c-40"
 		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"115"
-		"tall"			"30"
-
-		"backgroundtype"		"2"
+		"wide"			"40"
+		"tall"			"9"
 		"proportionaltoparent"	"1"
-			
-		"image"					"../hud/comp_round_timer"
+		"fillcolor"				"HUDBlueTeamSolid"
+		"scaleimage"			"1"
+	}
+	"RedTeamBackground"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedTeamBackground"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"zpos"			"5"
+		"wide"			"40"
+		"tall"			"9"
+		"proportionaltoparent"	"1"
+		"fillcolor"				"HUDRedTeamSolid"
 		"scaleimage"			"1"
 	}
 }

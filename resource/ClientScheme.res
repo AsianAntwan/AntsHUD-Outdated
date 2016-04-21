@@ -6,40 +6,18 @@ Scheme
 	{	
 	
 		//-----------------------------------------------------
-		// antshud Colors & Added Colors
+		// ahud Colors & Added Colors
 		//-----------------------------------------------------
 		
-		//Keep in mind that some elements were taken from antshud
-		//hence the "antshud Colors" being here.
+		//Keep in mind that some HUD elements were taken from ahud
+		//hence the "ahud Colors" being here.
 		
 		"Crosshair"				"255 255 255 255"
 		"CrosshairDamage"		"0 255 0 255"		// For no damage flash, set to the
 													// same value as Crosshair
-		"HP"					"255 255 255 255"
-		"HP Buff"				"0 225 255 200"
-		"HP Low"				"255 0 0 200"
-		
-		"LowAmmo"				"255 0 0 200"	
-
-		"antshudBlue"				"72 112 125 255"
-		"antshudDarkBlue"			"46 73 82 255"
-		"antshudRed"				"158 64 61 255"
-		"antshudDarkRed"			"102 48 46 255"
-		
-		"antshudGreen"				"92 122 90 255"
-		"antshudDarkGreen"			"38 53 36 255"
-		"antshudYellow"				"169 123 53 255"
-		"antshudBrightYellow"		"218 165 32 255"
-		
-		"antshudWhite"				"255 255 255 255"
-		"antshudDullWhite"			"132 132 132 255"
-		
-		"antshudGrey"				"51 47 46 255"
-		"antshudDarkGrey"			"27 27 27 255"
-		"antshudDarkerGrey"			"22 22 22 255"
-		
-		"antshudBlack"				"17 17 17 255"
 	
+		"LowAmmo"				"255 0 0 200"	
+		
 		//antshud colors
 	
 		"Ammo In Clip"							"255 255 255 255"

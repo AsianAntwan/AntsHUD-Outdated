@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"NeutraDisp20"
+		"font"			"NeutraDisp32"
 		"fgcolor"		"RedSolid"
 		"xpos"			"10"
 		"ypos"			"9"
@@ -15,7 +15,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"Can't Afford"
+		"labelText"		"X"
 		"textAlignment"	"Center"
 	}
 	

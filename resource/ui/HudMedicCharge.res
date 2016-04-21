@@ -136,7 +136,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"bgcolor" 		"32 32 32 128"
+		"bgcolor_override" 		"0 0 0 150"
 		"fgcolor_override"		 "Uber Bar Color"
 	}
 

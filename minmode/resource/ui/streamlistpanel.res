@@ -16,7 +16,7 @@
 			"fieldName"		"HeaderLabel"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"labelText"		"Currently Live"
+			"labelText"		"Live Streams"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"300"
@@ -67,8 +67,8 @@
 		"armedFgColor_override" "Base Color"
 		"depressedFgColor_override" "TanLight"
 			
-		"image_drawcolor"	"235 226 202 255"
-		"image_armedcolor"	"200 80 60 255"
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"0 191 255 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

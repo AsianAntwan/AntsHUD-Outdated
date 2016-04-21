@@ -45,7 +45,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Avenir24"
+			"font"			"NeutraDisp26"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"4"
@@ -62,7 +62,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Avenir48"
+			"font"			"NeutraDisp46"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -79,7 +79,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"Avenir48"
+			"font"			"NeutraDisp46"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"17"
@@ -97,7 +97,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Avenir24"
+			"font"			"NeutraDisp26"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"122"
@@ -114,7 +114,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Avenir48"
+			"font"			"NeutraDisp46"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"105"
@@ -131,7 +131,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"Avenir48"
+			"font"			"NeutraDisp46"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"107"

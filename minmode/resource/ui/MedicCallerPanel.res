@@ -39,7 +39,7 @@
 		"tall"			"30"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../effects/speech_mediccall_Health Hurt"
+		"image"			"../effects/speech_mediccall_hurt"
 		"scaleImage"		"1"	
 	}
 	"CallerBleeding"

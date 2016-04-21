@@ -21,7 +21,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"NeutraDisp28"
-		"xpos"			"25"			// align me to the left edge of the first selection
+		"xpos"			"10"			// align me to the left edge of the first selection
 		"ypos"			"40"
 		"zpos"			"3"
 		"wide"			"360"
@@ -42,7 +42,7 @@
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NeutraDisp28"
 		"fgcolor"		"TransparentBlack"
-		"xpos"			"27"			// align me to the left edge of the first selection
+		"xpos"			"12"			// align me to the left edge of the first selection
 		"ypos"			"42"
 		"zpos"			"3"
 		"wide"			"360"
@@ -103,7 +103,7 @@
 		"xpos"			"20"
 		"ypos"			"60"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"86"
 		"tall"			"132"
 		"autoResize"	"0"
 		"pinCorner"		"0"

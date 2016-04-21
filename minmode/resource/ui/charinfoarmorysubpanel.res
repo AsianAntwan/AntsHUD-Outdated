@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"HudFontMediumSmallBold"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
 		"xpos"			"c-280"

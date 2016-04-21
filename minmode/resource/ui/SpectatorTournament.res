@@ -238,7 +238,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"255 20 175 255"
+				"fgcolor"		"0 191 255 255"
 				
 			}
 			"respawntimeBG"
@@ -293,7 +293,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"0 255 255 255"
+				"fgcolor"		"0 191 255 255"
 			}
 			"chargeamountBG"
 			{
@@ -384,9 +384,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuyBackLabel"
 		"xpos"			"c-190"
-		"ypos"			"360"
+		"ypos"			"340"
 		"wide"			"380"
-		"tall"			"24"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"

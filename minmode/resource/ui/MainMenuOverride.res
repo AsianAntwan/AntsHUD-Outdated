@@ -2858,10 +2858,10 @@
 		}	
 	}		
 	
-	"CoachPlayersButton"
+	"CoacHealth NormallayersButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"CoachPlayersButton"
+		"fieldName"		"CoacHealth NormallayersButton"
 		"xpos"			"185"
 		"ypos"			"445"
 		"zpos"			"5"

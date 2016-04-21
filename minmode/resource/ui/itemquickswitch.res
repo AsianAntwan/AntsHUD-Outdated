@@ -1,9 +1,9 @@
 "Resource/UI/ItemQuickSwitch.res"
 {
-	"ItemQuickSwitchPanel"
+	"ItemQuickSwitcHealth Normalanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"ItemQuickSwitchPanel"
+		"fieldName"		"ItemQuickSwitcHealth Normalanel"
 		"xpos"			"c-125"
 		"ypos"			"280"
 		"wide"			"275"

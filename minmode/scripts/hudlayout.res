@@ -1258,9 +1258,9 @@
 		"tall"	 "480"
 	}
 	
-	ItemQuickSwitchPanel
+	ItemQuickSwitcHealth Normalanel
 	{
-		"fieldName"				"ItemQuickSwitchPanel"
+		"fieldName"				"ItemQuickSwitcHealth Normalanel"
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"			"c-125"

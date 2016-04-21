@@ -45,7 +45,7 @@ Scheme
 		"Heal Numbers"							"0 191 255 255"
 		"Damage Numbers"						"255 255 0 255"
 		
-		//'Last DamageHeal Info' refers to the number that appears above hp
+		//'Last DamageHeal Info' refers to the number that appears above Health Normal
 		"Last DamageHeal Info"					"255 255 0 255"
 		
 		//Menu/Color scheme colors
@@ -357,8 +357,8 @@ Scheme
 		FrameTitleBar.DisabledTextColor	"Orange"
 		FrameTitleBar.DisabledBgColor	"Blank"
 
-		GraphPanel.FgColor				"Orange"
-		GraphPanel.BgColor				"TransparentBlack"
+		GrapHealth Normalanel.FgColor				"Orange"
+		GrapHealth Normalanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
 		Label.TextColor					"TanLight"

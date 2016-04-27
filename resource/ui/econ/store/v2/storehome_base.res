@@ -325,7 +325,7 @@
 			"fgcolor"	"124 114 99 255"
 			"defaultbgcolor_override" "25 25 25 255"
 			"defaultFgColor_override" "124 114 99 255"
-			"armedBgColor_override" "17 17 17 255"
+			"armedBgColor_override" "19 19 19 255"
 			"armedFgColor_override" "124 114 99 255"
 			"selectedBgColor_override" "10 10 10 255"
 			"selectedFgColor_override"	"235 227 203 255"
@@ -368,7 +368,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"19 19 19 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -421,7 +421,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"19 19 19 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -473,7 +473,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"19 19 19 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -522,9 +522,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"

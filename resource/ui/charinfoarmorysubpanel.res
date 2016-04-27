@@ -135,12 +135,12 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"51 47 46 255"
-		"disabledFgColor_override" "235 226 202 255"
+		"disabledFgColor_override" "White"
 		"disabledBgColor_override" "51 47 46 255"
 		"selectionColor_override" "51 47 46 255"
-		"selectionTextColor_override" "235 226 202 255"
+		"selectionTextColor_override" "White"
 		"defaultSelectionBG2Color_override" "51 47 46 255"
 	}
 	
@@ -272,7 +272,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
-			"bgcolor_override"	"17 17 17 255"
+			"bgcolor_override"	"19 19 19 255"
     	}
 		
 		"text_ypos"			"20"

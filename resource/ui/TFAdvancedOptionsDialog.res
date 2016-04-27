@@ -69,9 +69,9 @@
 		
 		
 			"paintbackground"	"1"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
@@ -104,9 +104,9 @@
 		
 		
 			"paintbackground"	"1"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
@@ -161,7 +161,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}

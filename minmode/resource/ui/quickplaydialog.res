@@ -253,7 +253,7 @@
 						"visible"		"0"
 						"enabled"		"1"
 						"tabPosition"		"0"
-						"bgcolor_override"	"17 17 17 255"
+						"bgcolor_override"	"19 19 19 255"
 					}
 			
 					"MoreInfoLabel"
@@ -735,9 +735,9 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"17 17 17 255"
+			"defaultBgColor_override"	"19 19 19 255"
 			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
@@ -769,9 +769,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"17 17 17 255"
+			"defaultBgColor_override"	"19 19 19 255"
 			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
 			"depressedFgColor_override" "TanLight"
@@ -808,7 +808,7 @@
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
 		
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1011,7 +1011,7 @@
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "White"
 				"depressedFgColor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"

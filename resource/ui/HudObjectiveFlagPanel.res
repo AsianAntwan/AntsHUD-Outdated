@@ -122,7 +122,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"Avenir40"
+		"font"			"NeutraDisp40"
 		"fgcolor"		"TanLight"
 		
 		"if_hybrid"
@@ -145,8 +145,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-56"
-		"ypos"			"r32"
+		"xpos"			"c-55"
+		"ypos"			"r31"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -154,7 +154,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
-		"font"			"Avenir40"
+		"font"			"NeutraDisp40"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -186,7 +186,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"Avenir40"
+		"font"			"NeutraDisp40"
 		"fgcolor"		"TanLight"		
 		
 		"if_hybrid"
@@ -209,8 +209,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c8"
-		"ypos"			"r32"
+		"xpos"			"c9"
+		"ypos"			"r31"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -218,7 +218,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
-		"font"			"Avenir40"
+		"font"			"NeutraDisp40"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"

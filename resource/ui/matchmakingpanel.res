@@ -134,12 +134,12 @@
 				"unicode"			"0"
 				"default"			"0"
 		
-				"fgcolor_override"	"235 226 202 255"
+				"fgcolor_override"	"White"
 				"bgcolor_override"	"0 0 0 0"
-				"disabledFgColor_override" "235 226 202 255"
+				"disabledFgColor_override" "White"
 				"disabledBgColor_override" "0 0 0 0"
 				"selectionColor_override" "0 0 0 0"
-				"selectionTextColor_override" "235 226 202 255"
+				"selectionTextColor_override" "White"
 				"defaultSelectionBG2Color_override" "0 0 0 0"
 			}
 

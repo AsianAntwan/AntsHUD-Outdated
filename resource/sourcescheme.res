@@ -13,7 +13,7 @@ Scheme
 		"AntsPrimary"			"0 191 255 255"
 		"AntsPrimaryLight"		"255 146 0 255"
 		"AntsPrimaryDark"		"255 86 0 255"
-		"AntsBlack"				"17 17 17 255"
+		"AntsBlack"				"19 19 19 255"
 		"AntsBlackTrans"		"15 15 15 190"
 		"AntsButtonHover"		"12 52 85 128"
 		
@@ -102,7 +102,7 @@ Scheme
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"117 117 117 255"
-		Label.DisabledFgColor2			"17 17 17 255"
+		Label.DisabledFgColor2			"19 19 19 255"
 		
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.BgColor					"TransparentBlack"
@@ -134,7 +134,7 @@ Scheme
 		Slider.TextColor			"180 180 180 255"
 		Slider.TrackColor			"31 31 31 255"
 		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"17 17 17 255"
+		Slider.DisabledTextColor2	"19 19 19 255"
 		
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"

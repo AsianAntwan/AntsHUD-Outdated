@@ -391,14 +391,6 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-
-
-
-
-
-
-
-
 	}	
 	"PlayLabel"
 	{
@@ -430,7 +422,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"	"19 19 19 255"
 		
 		"TipSubLabel"
 		{
@@ -468,7 +460,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"auto_wide_tocontents" "1"
 		}
 	}	
@@ -885,13 +877,13 @@
 			
 			"paintbackground"	"0"
 			
-			//"defaultFgColor_override" "235 226 202 255"
+			//"defaultFgColor_override" "White"
 			//"armedFgColor_override" "46 43 42 255"
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "Base Color"
 			"depressedFgColor_override" "Base Color"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"200 80 60 255"		
 		}	
 
@@ -1060,7 +1052,7 @@
 		
 			"defaultBgColor_override"	"25 25 25 255"
 			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"17 17 17 255"
+			"depressedBgColor_override"	"19 19 19 255"
 		
 			"defaultFgColor_override"	"TanLight"
 			"armedFgColor_override" 	"TanLight"
@@ -1095,7 +1087,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1138,7 +1130,7 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground" "0"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1307,11 +1299,11 @@
 		"paintbackground"	"0"
 
 		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "White"
 		"depressedFgColor_override" "46 43 42 255"
 			
 		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"235 226 202 255"
+		"image_armedcolor"	"White"
 	}	
 	
 	"Notifications_Panel"
@@ -1594,7 +1586,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1657,7 +1649,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1734,7 +1726,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1841,7 +1833,7 @@
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
+		"armedFgColor_override" "White"
 		"depressedFgColor_override" "46 43 42 255"
 	}
 	"FreeTrialPanel"
@@ -1953,7 +1945,7 @@
 			"use_proportional_insets" "1"
 			"font"			"NeutraDisp24"
 			"textAlignment"	"center"
-			"labelText"		"v2016.4.18"
+			"labelText"		"v2016.4.25"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
@@ -1970,7 +1962,7 @@
 			"depressedFgColor_override" "TanLight"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2035,7 +2027,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2100,7 +2092,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2165,7 +2157,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2231,7 +2223,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2297,7 +2289,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -2362,7 +2354,7 @@
 			"depressedBgColor_override" "TransparentPanelBG"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -3012,7 +3004,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"White"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3069,7 +3061,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"White"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3126,7 +3118,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"White"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3244,7 +3236,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"White"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -3408,11 +3400,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "White"
 				"depressedFgColor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"White"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3456,7 +3448,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
@@ -3576,11 +3568,11 @@
 				"paintbackground"	"0"
 				
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "White"
 				"depressedFgColor_override" "46 43 42 255"
 				
 				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"235 226 202 255"
+				"image_armedcolor"	"White"
 				"SubImage"
 				{
 					"ControlName"	"ImagePanel"
@@ -3624,7 +3616,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
@@ -3736,7 +3728,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
@@ -3848,7 +3840,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
@@ -3960,7 +3952,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"
@@ -4072,7 +4064,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"TanLight"

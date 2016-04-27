@@ -747,7 +747,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -904,7 +904,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -969,7 +969,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1076,7 +1076,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1126,7 +1126,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1191,7 +1191,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1298,7 +1298,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1348,7 +1348,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1413,7 +1413,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1520,7 +1520,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1570,7 +1570,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1635,7 +1635,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1741,7 +1741,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -1791,7 +1791,7 @@
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{

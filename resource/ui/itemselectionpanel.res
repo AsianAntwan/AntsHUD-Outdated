@@ -155,7 +155,7 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"17 17 17 255"
+		"bgcolor_override"	"19 19 19 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -298,7 +298,7 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"19 19 19 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -357,7 +357,7 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"19 19 19 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"
@@ -411,7 +411,7 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"17 17 17 255"
+		"depressedBgColor_override"	"19 19 19 255"
 		
 		"defaultFgColor_override"	"TanLight"
 		"armedFgColor_override" 	"TanLight"

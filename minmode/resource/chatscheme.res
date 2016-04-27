@@ -129,7 +129,7 @@ Scheme
 		Slider.TextColor								"180 180 180 255"
 		Slider.TrackColor								"31 31 31 255"
 		Slider.DisabledTextColor1						"117 117 117 255"
-		Slider.DisabledTextColor2						"17 17 17 255"
+		Slider.DisabledTextColor2						"19 19 19 255"
 		TextEntry.TextColor								"TFTextBright"
 		TextEntry.BgColor								"ListBG"
 		TextEntry.CursorColor							"OffWhite"

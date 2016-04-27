@@ -193,7 +193,7 @@ Scheme
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"White"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -291,36 +291,36 @@ Scheme
 		ReplayBrowser.Search.BgColor						"TanDark"
 		ReplayBrowser.Search.FgColor						"White"
 		
-		Replay.RenderDialog.BgColor							"17 17 17 255"
+		Replay.RenderDialog.BgColor							"19 19 19 255"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"17 17 17 255"
+		Econ.Button.BgColor									"19 19 19 255"
 		Econ.Button.FgColor									"TanDark"
 		Econ.Button.ArmedBgColor							"Base Color"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"17 17 17 255"
+		Econ.Button.DepressedBgColor						"19 19 19 255"
 		Econ.Button.DepressedFgColor						"TanDark"
 		
 		Econ.Button.PresetDefaultColorFg					"0 191 255 255"
 		Econ.Button.PresetArmedColorFg						"0 191 255 255"
 		Econ.Button.PresetDepressedColorFg					"0 191 255 255"
 		
-		Econ.Button.PresetDefaultColorBg					"17 17 17 255"
+		Econ.Button.PresetDefaultColorBg					"19 19 19 255"
 		Econ.Button.PresetArmedColorBg						"Base Color"
-		Econ.Button.PresetDepressedColorBg					"17 17 17 255"
+		Econ.Button.PresetDepressedColorBg					"19 19 19 255"
 		
 		Border.Bright					"NoBorder"		// the lit side of a control
 		Border.Dark						"NoBorder"		// the dark/unlit side of a control
 		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"17 17 17 255"
+		Button.BgColor					"19 19 19 255"
 		Button.ArmedTextColor			"TanLight"
 		Button.ArmedBgColor				"Base Color"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"Base Color"
 		Button.DepressedTextColor		"TanLight"
-		Button.DepressedBgColor			"17 17 17 255"
+		Button.DepressedBgColor			"19 19 19 255"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -435,7 +435,7 @@ Scheme
 		Slider.TextColor			"127 140 127 255"
 		Slider.TrackColor			"31 31 31 255"
 		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"17 17 17 255"
+		Slider.DisabledTextColor2	"19 19 19 255"
 
 		TextEntry.TextColor			"Gray"
 		TextEntry.BgColor			"Blank"
@@ -2501,7 +2501,17 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		"MatchSummaryWinner"
+		{
+			"1"
+			{
+				"name"		"AvenirLTStd-Medium"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"CompMatchStartTeamNames"
 		{
 			"1"
@@ -4042,6 +4052,16 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"NeutraDisp40"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "40"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"NeutraDisp42"
 		{
 			"1"
@@ -5304,6 +5324,17 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
@@ -5326,6 +5357,17 @@ Scheme
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
+		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderClearBG
 		{

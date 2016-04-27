@@ -60,4 +60,40 @@
 		"proportionaltoparent" "1"
 		"asynchandling"		"show"
 	}
+		
+	"TooltipPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"TooltipPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"150"
+		"tall"			"20"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"border"		"MainMenuBGBorder"
+		"bgcolor_override"	"19 19 19 255"
+		
+		"TipLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TipLabel"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%tiptext%"
+			"textAlignment"	"center"
+			"xpos"			"20"
+			"ypos"			"10"
+			"zpos"			"2"
+			"wide"			"100"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"White"
+			"wrap"			"1"
+			"centerwrap"	"1"
+		}
+	}
 }

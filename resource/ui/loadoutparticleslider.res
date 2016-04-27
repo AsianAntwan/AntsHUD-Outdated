@@ -34,7 +34,7 @@
 		"tall"			"32"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"	"17 17 17 255"
+		"bgcolor_override"	"19 19 19 255"
 		"PaintBackgroundType"	"2"
 	}
 	"HatUseHeadCheckButton"

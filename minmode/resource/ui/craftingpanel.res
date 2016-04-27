@@ -84,7 +84,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"235 226 202 255"
+					"fgcolor"		"White"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -108,7 +108,7 @@
 			"textinsetx"	"0"
 			"defaultFgColor_override" "117 107 94 255"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "White"
 			"armedBgColor_override" "0 0 0 0"
 			"depressedFgColor_override" "178 82 22 255"
 			"depressedBgColor_override" "0 0 0 0"
@@ -466,7 +466,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

@@ -62,7 +62,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"17 17 17 255"
+			"fillcolor" 	"19 19 19 255"
 			}
 			
 			"PanelTop"
@@ -78,7 +78,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"17 17 17 255"
+			"fillcolor" 	"19 19 19 255"
 			}
 			
 			"PanelBottom"
@@ -94,7 +94,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"17 17 17 255"
+			"fillcolor" 	"19 19 19 255"
 			}
 			
 			"PanelRight"
@@ -110,7 +110,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"17 17 17 255"
+			"fillcolor" 	"19 19 19 255"
 			}
 		
 			"playername"
@@ -128,7 +128,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"White"
 			
 			}
 			
@@ -274,7 +274,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"17 17 17 255"
+				"fgcolor"		"19 19 19 255"
 				
 			}
 			
@@ -328,7 +328,7 @@
 				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				//"fgcolor"		"White"
 			}
 			
 		}

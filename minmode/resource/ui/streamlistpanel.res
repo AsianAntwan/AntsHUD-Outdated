@@ -61,7 +61,7 @@
 			
 		"paintbackground"	"0"
 			
-		//"defaultFgColor_override" "235 226 202 255"
+		//"defaultFgColor_override" "White"
 		//"armedFgColor_override" "46 43 42 255"
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "Base Color"
@@ -204,9 +204,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
-		"defaultFgColor_override" "235 226 202 255"
-		"defaultBgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "235 226 202 255"
+		"defaultFgColor_override" "White"
+		"defaultBgColor_override" "19 19 19 255"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 	}	
 }

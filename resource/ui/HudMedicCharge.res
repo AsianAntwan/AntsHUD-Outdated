@@ -36,7 +36,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp52"
-		"fgcolor"		"Ammo In Clip"
+		"fgcolor"		"Ubercharge Amount"
 	}
 	"ChargeLabelShadow"
 	{
@@ -57,7 +57,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp52"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 	}
 	
 	"ChargeBackground"

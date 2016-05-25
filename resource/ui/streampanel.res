@@ -96,7 +96,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"TextDescriptionLabel"
@@ -114,7 +114,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"ViewerCountLabel"
@@ -132,7 +132,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"Stream_URLButton"

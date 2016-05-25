@@ -52,7 +52,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HUDBlueTeamSolid"
+			"fillcolor"		"AntsHUDBlue"
 			"scaleImage"		"1"
 			
 		}
@@ -68,7 +68,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HUDRedTeamSolid"
+			"fillcolor"		"AntsHUDRed"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
@@ -76,7 +76,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
 			"font"			"NeutraDisp26"
-			"fgcolor"		"White"
+			"fgcolor"		"AntsHUDWhite"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"4"
@@ -94,7 +94,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
 			"font"			"NeutraDisp46"
-			"fgcolor"		"White"
+			"fgcolor"		"AntsHUDWhite"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"15"
@@ -112,7 +112,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
 			"font"			"NeutraDisp46"
-			"fgcolor"		"TransparentBlack"
+			"fgcolor"		"ShadowBlack"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"17"
@@ -139,7 +139,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"HUDBlueTeamSolid"
+			"color_outline"	"AntsHUDBlue"
 		}
 		"BlueLeaderAvatarBG"
 		{
@@ -152,14 +152,14 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"HUDBlueTeamSolid"
+			"bgcolor_override"	"AntsHUDBlue"
 		}		
 		"RedTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
 			"font"			"NeutraDisp26"
-			"fgcolor"		"White"
+			"fgcolor"		"AntsHUDWhite"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"122"
@@ -177,7 +177,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
 			"font"			"NeutraDisp46"
-			"fgcolor"		"White"
+			"fgcolor"		"AntsHUDWhite"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"105"
@@ -195,7 +195,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
 			"font"			"NeutraDisp46"
-			"fgcolor"		"TransparentBlack"
+			"fgcolor"		"ShadowBlack"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"107"
@@ -222,7 +222,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"HUDRedTeamSolid"
+			"color_outline"	"AntsHUDRed"
 		}
 		"RedLeaderAvatarBG"
 		{
@@ -235,7 +235,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"HUDRedTeamSolid"
+			"bgcolor_override"	"AntsHUDRed"
 		}					
 
 	}
@@ -293,7 +293,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"font"			"NeutraDisp20"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"xpos"			"11"
 		"ypos"			"55"
 		"zpos"			"1"
@@ -680,7 +680,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Winpanel_KillStreakLeader"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"

@@ -47,7 +47,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"Avenir24"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"MapInfoType"
@@ -66,7 +66,7 @@
 		"labelText"		"%gamemode%"
 		"textAlignment"	"center"
 		"font"			"Avenir16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 	
 	"MapInfoText"
@@ -85,7 +85,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"east"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"MapImage"
@@ -133,11 +133,11 @@
 		"font"			"Blank"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"fgcolor"					"AntsHUDWhite"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGray"
+		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
 	"MapInfoContinue2" [$WIN32]
@@ -162,11 +162,11 @@
 		"font"			"Avenir24"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"fgcolor"					"AntsHUDWhite"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGray"
+		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
 	"MapInfoWatchIntro" [$WIN32]
@@ -191,11 +191,11 @@
 		"font"			"Avenir20"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"fgcolor"					"AntsHUDWhite"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGray"
+		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
 	"MapInfoBack" [$WIN32]
@@ -219,11 +219,11 @@
 		"font"			"Avenir20"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"fgcolor"					"AntsHUDWhite"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGray"
+		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
 	"MenuBG"

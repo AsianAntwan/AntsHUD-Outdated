@@ -40,7 +40,7 @@
 		"ypos"			"c-30"
 		"wide"			"270"
 		"tall"			"30"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"DifficultyContainer"
@@ -64,7 +64,7 @@
 			"ypos"			"-6"
 			"wide"			"0"
 			"tall"			"0" //disable
-			"fgcolor"		"tanlight"
+			"fgcolor"		"AntsHUDWhite"
 		}
 		
 		"DifficultyValue"
@@ -78,7 +78,7 @@
 			"ypos"			"0"
 			"wide"			"270"
 			"tall"			"30"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"AntsHUDWhite"
 		}
 	}
 	
@@ -118,7 +118,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"22"
-		"textcolor"		"White"
+		"textcolor"		"AntsHUDWhite"
 		"font"			"Avenir24"
 	}
 	
@@ -164,7 +164,7 @@
 			"xpos"			"9999"
 			"ypos"			"9999"
 			"wide"			"200"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"AntsHUDWhite"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -226,7 +226,7 @@
 			"ypos"			"8"
 			"wide"			"220"
 			"tall"			"40"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"AntsHUDWhite"
 		}
 	}
 }

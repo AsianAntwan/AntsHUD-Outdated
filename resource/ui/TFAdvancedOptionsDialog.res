@@ -41,7 +41,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	"CancelButton"
 	{
@@ -69,14 +69,18 @@
 		
 		
 			"paintbackground"	"1"
-			"depressedBgColor_override"	"19 19 19 255"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
 			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"19 19 19 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 	}
 	"OkButton"
 	{
@@ -104,14 +108,18 @@
 		
 		
 			"paintbackground"	"1"
-			"depressedBgColor_override"	"19 19 19 255"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
 			"armedBgColor_override"		"25 25 25 255"
-			"depressedBgColor_override"	"19 19 19 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 	}
 	
 	"PanelListPanel"
@@ -161,7 +169,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"AntsHUDWhite"
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}

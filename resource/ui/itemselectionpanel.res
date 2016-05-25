@@ -84,30 +84,30 @@
 	
 	"CaratLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
 		"font"			"Avenir16"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"25"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"18"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "0 191 255 255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"NeutraDisp32"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
+		"xpos"			"c-310"
 		"ypos"			"22"
 		"zpos"			"1"
 		"wide"			"480"
@@ -134,7 +134,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"NameFilterTextEntry"
@@ -153,9 +153,9 @@
 		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"		"1"
-		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"19 19 19 255"
+		"uniAvenir"		"1"
+		"fgcolor_override"	"AntsHUDWhite"
+		"bgcolor_override"	"25 25 25 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -298,11 +298,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"19 19 19 255"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -357,11 +359,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"19 19 19 255"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -411,11 +415,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"19 19 19 255"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"

@@ -34,7 +34,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"NoBorder"
 
 		"Background"
 		{
@@ -98,7 +98,7 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"AntsHUDWhite"
 			}
 
 			"MoreInfoButton"
@@ -173,7 +173,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"mouseinputenabled" "0"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"AntsHUDWhite"
 				}
 
 				"DescLabel"
@@ -192,7 +192,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"TanLight"
+					"fgcolor_override"	"AntsHUDWhite"
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
@@ -253,7 +253,7 @@
 						"visible"		"0"
 						"enabled"		"1"
 						"tabPosition"		"0"
-						"bgcolor_override"	"19 19 19 255"
+						"bgcolor_override"	"25 25 25 255"
 					}
 			
 					"MoreInfoLabel"
@@ -735,14 +735,14 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"19 19 19 255"
-			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"19 19 19 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 
 		"ShowServersButton"
@@ -769,14 +769,14 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"19 19 19 255"
-			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"19 19 19 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 
 		"OptionsButton"
@@ -808,7 +808,7 @@
 			"border_default"	"NoBorder"
 			"border_armed"		"NoBorder"
 		
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1011,7 +1011,7 @@
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "White"
+				"armedFgColor_override" "AntsHUDWhite"
 				"depressedFgColor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"

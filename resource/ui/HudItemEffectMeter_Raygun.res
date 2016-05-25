@@ -9,7 +9,7 @@
 		"ypos"			"c100"	
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 	

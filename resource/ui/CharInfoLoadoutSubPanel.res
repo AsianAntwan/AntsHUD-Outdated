@@ -486,7 +486,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	"NoGCLabel"
 	{
@@ -504,7 +504,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	"SelectLabel"
 	{
@@ -540,7 +540,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	
 	"class_loadout_panel"
@@ -679,11 +679,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"TanLight"
+			"image_armedcolor"	"AntsHUDWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -715,7 +715,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		"NextButton"
 		{
@@ -744,10 +744,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -854,11 +854,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"TanLight"
+			"image_armedcolor"	"AntsHUDWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -901,10 +901,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -937,7 +937,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		"NextButton"
 		{
@@ -966,10 +966,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1076,11 +1076,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "White"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"TanLight"
+			"image_armedcolor"	"AntsHUDWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1123,10 +1123,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1159,7 +1159,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		"NextButton"
 		{
@@ -1188,10 +1188,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1298,11 +1298,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "White"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"TanLight"
+			"image_armedcolor"	"AntsHUDWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1345,10 +1345,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1381,7 +1381,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		"NextButton"
 		{
@@ -1410,10 +1410,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1520,11 +1520,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "White"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"TanLight"
+			"image_armedcolor"	"AntsHUDWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1567,10 +1567,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1603,7 +1603,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 		"NextButton"
 		{
@@ -1632,10 +1632,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1741,11 +1741,11 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "White"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"TanLight"
+			"image_armedcolor"	"AntsHUDWhite"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -1788,10 +1788,10 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "TanLight"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1824,7 +1824,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}
 	}	
 	

@@ -12,6 +12,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BlueTimer"
+
 		"xpos"				"0"
 		"ypos"				"0"
 		"zpos"				"2"
@@ -25,7 +26,6 @@
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-.7"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -39,32 +39,27 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"Avenir22"
-			"fgcolor"		"TanLight"
-			"xpos"			"28"
-			"ypos"			"-4"
-			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
-			"visible"		"1"
-			"enabled"		"1"
-			"textAlignment"	"center"
-			"labelText"		"0:00"
+			"font"				"Time20"
+			"fgcolor"			"AntsHUDWhite"
+			"xpos"				"25"
+			"ypos"				"1"
+			"zpos"				"3"
+			"wide"				"50"
+			"tall"				"20"
+			"visible"			"1"
+			"enabled"			"1"
+			"textAlignment"		"center"
+			"labelText"			"0:00"
 			
 			if_comp
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"10"
-				"xpos_minmode"	"15"
+				"xpos"			"9"
 				"ypos"			"9"
-				"ypos_minmode"	"9"
-				"tall"			"10"
+				"tall"			"15"
 				"wide"			"35"
-				"wide_minmode"	"35"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			
 			}
 		}	
@@ -81,25 +76,17 @@
 		"tall"				"150"
 		"visible" 			"1"
 		"enabled" 			"1"
-		"delta_item_x" 		"0"
-		"delta_item_start_y""50"
-		"delta_item_end_y" 	"70"
-		"PositiveColor" 	"0 255 0 255"
-		"NegativeColor" 	"255 0 0 255"
-		"delta_lifetime" 	"1.5"
-		"delta_item_font" 	"Avenir22"
 		
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.77"
 			"ypos"					"0"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
+			"PositiveColor"			"AntsHUDWhite"
+			"NegativeColor"			"AntsHUDGray"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}		
@@ -108,22 +95,15 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"Avenir22"
-			"fgcolor"			"TanLight"
-			"xpos"				"28"
-			"ypos"				"-4"
+			"font"				"Time20"
+			"fgcolor"			"AntsHUDWhite"
+			"xpos"				"25"
+			"ypos"				"1"
 			"zpos"				"3"
-			"wide"				"45"
-			"tall"				"31"
+			"wide"				"50"
+			"tall"				"20"
 			"visible"			"1"
 			"enabled"			"1"
-			"delta_item_x" 		"22"
-			"delta_item_start_y""50"
-			"delta_item_end_y" 	"70"
-			"PositiveColor" 	"0 255 0 255"
-			"NegativeColor" 	"255 0 0 255"
-			"delta_lifetime" 	"1.5"
-			"delta_item_font" 	"Avenir20"
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
@@ -131,14 +111,12 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
-				"ypos"			"12"
+				"xpos"			"rs1-13"
+				"ypos"			"9"
 				"wide"			"35"
-				"tall"			"10"
+				"tall"			"15"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
-			
+				
 			}			
 		}	
 	}
@@ -148,12 +126,12 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"15"
-		"ypos"				"23"
+		"ypos"				"20"
 		"zpos"				"10"
 		"wide"				"50"
 		"tall"				"2"
 		"visible"			"0"
 		"enabled"			"1"
-		"fillcolor"			"TanLight"
+		"fillcolor"			"AntsHUDWhite"
 	}
 }

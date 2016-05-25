@@ -14,7 +14,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"HeaderLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"NeutraDisp16"
 			"textAlignment"	"center"
 			"labelText"		"Live Streams"
 			"xpos"			"0"
@@ -26,7 +26,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType" "2"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDAntsHUDWhite"
 			"bgcolor_override"	"25 25 25 255"
 		}
 	}
@@ -61,11 +61,11 @@
 			
 		"paintbackground"	"0"
 			
-		//"defaultFgColor_override" "White"
+		//"defaultFgColor_override" "AntsHUDWhite"
 		//"armedFgColor_override" "46 43 42 255"
-		"defaultFgColor_override" "TanLight"
+		"defaultFgColor_override" "AntsHUDAntsHUDWhite"
 		"armedFgColor_override" "Base Color"
-		"depressedFgColor_override" "TanLight"
+		"depressedFgColor_override" "AntsHUDAntsHUDWhite"
 			
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"0 191 255 255"
@@ -204,9 +204,12 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
-		"defaultFgColor_override" "White"
-		"defaultBgColor_override" "19 19 19 255"
-		"armedFgColor_override" "White"
-		"depressedFgColor_override" "White"
+		"defaultFgColor_override"   "AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDWhite"
+		
+		"defaultBgColor_override"   "ButtonBG"
+		"armedBgColor_override" 	"Button Color"
+		"depressedBgColor_override" "ButtonBG"
 	}	
 }

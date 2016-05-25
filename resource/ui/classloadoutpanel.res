@@ -108,25 +108,25 @@
 		"font"			"Avenir16"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"26"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"16"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "0 191 255 255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"NeutraDisp32"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
+		"xpos"			"c-310"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"240"
@@ -442,7 +442,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "White"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"
@@ -500,7 +500,7 @@
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 0"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "250 68 17 255"
 		"armedFgColor_override" "Base Color"
 		"depressedFgColor_override" "250 68 17 255"
@@ -539,7 +539,7 @@
 		"scaleImage"		"1"
 		"command"			"sv_cheats 1;r_skin 1"
 		
-		"fgcolor"					"TanLight"
+		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "0 98 255 255"
 		"armedFgColor_override" "Base Color"
 		"depressedFgColor_override" "0 98 255 255"
@@ -578,7 +578,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"image_drawcolor"	"TanLight"
+		"image_drawcolor"	"AntsHUDWhite"
 		"image_armedcolor"	"Button Color"
 		
 		"SubImage"
@@ -619,7 +619,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"TanLight"
+		"image_drawcolor"	"AntsHUDWhite"
 		"image_armedcolor"	"Button Color"
 
 		"SubImage"
@@ -726,7 +726,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "White"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"

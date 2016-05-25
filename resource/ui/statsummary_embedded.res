@@ -205,7 +205,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
-				"unicode"		"0"
+				"uniAvenir"		"0"
 			}
 			"BarChartComboB"
 			{
@@ -225,7 +225,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
-				"unicode"		"0"
+				"uniAvenir"		"0"
 			}
 			"ClassCombo"
 			{
@@ -245,7 +245,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
-				"unicode"		"0"
+				"uniAvenir"		"0"
 			}
 		}
 		"AveragesBG"
@@ -413,7 +413,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"		"TanLight"
+			"fgcolor_override"		"AntsHUDWhite"
 		}				
 		"ClassLabel1"
 		{
@@ -2499,9 +2499,9 @@
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
 	}
@@ -2527,9 +2527,9 @@
 			"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
 	}
@@ -2555,9 +2555,9 @@
 					"defaultBgColor_override"	"15 15 15 255"
 			"armedBgColor_override"		"25 25 25 255"
 			"depressedBgColor_override"	"25 25 25 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
 	}
@@ -2565,7 +2565,7 @@
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
+		"bgcolor"			"AntsHUDDarkGray"
 		"paintbackground"	"1"
 		"tall"				"100"
 		"tall_lodef"				"60"

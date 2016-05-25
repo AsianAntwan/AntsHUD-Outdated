@@ -341,7 +341,7 @@
 			"labelText"		"#TF_MvM_HeaderMannVsMachine"
 			"font"			"HudFontMediumBold"
 			//"fgcolor_override"	"89 81 71 255"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -465,7 +465,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 
 		"DifficultyLabel"
@@ -480,7 +480,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 
 		"CompleteLabel"
@@ -495,7 +495,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"24"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 
 		"TourLevelLabel"
@@ -510,7 +510,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"26"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 
 		"TourlistGroupBox"
@@ -571,7 +571,7 @@
 			"visible"	"1"
 			"enabled"	"1"
 			"wrap"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 	}
 
@@ -717,7 +717,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 			"xpos"			"70"
 			"ypos"			"79"
 			"zpos"			"1"
@@ -754,14 +754,14 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"1"
-			"depressedBgColor_override"	"19 19 19 255"
-			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"19 19 19 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 
 		"SquadSurplusImage"
@@ -787,7 +787,7 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 			"xpos"			"70"
 			"ypos"			"43"
 			"zpos"			"1"
@@ -824,14 +824,14 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"1"
-			"depressedBgColor_override"	"19 19 19 255"
-			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"19 19 19 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 
 		"SquadSurplusCheckButton"
@@ -952,14 +952,14 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"paintbackground"	"1"
-			"depressedBgColor_override"	"19 19 19 255"
-			"armedBgColor_override"		"Base Color"
-			"depressedBgColor_override"	"19 19 19 255"
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override" 	"TanLight"
-			"depressedFgColor_override" "TanLight"
-			"border_default"			"ButtonHover"
-			"border_armed"				"ButtonHover"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override" 	"AntsHUDWhite"
+			"depressedFgColor_override" "AntsHUDWhite"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 		}
 	}
 
@@ -988,7 +988,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 
 		"CompleteLabel"
@@ -1003,7 +1003,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 
 		"TourLevelImage"
@@ -1147,7 +1147,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"SearchActiveTitle"
-			"font"			"HudFontMediumBold"
+			"font"			"NeutraDisp28"
 			"labelText"		"#TF_Matchmaking_Searching"
 			"xpos"		"30"
 			"ypos"		"20"
@@ -1734,12 +1734,12 @@
 			"unicode"			"0"
 			"default"			"0"
 		
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"AntsHUDWhite"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "White"
+			"disabledFgColor_override" "AntsHUDWhite"
 			"disabledBgColor_override" "0 0 0 0"
-			"selectionColor_override" "White"
-			"selectionTextColor_override" "White"
+			"selectionColor_override" "AntsHUDWhite"
+			"selectionTextColor_override" "AntsHUDWhite"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 		

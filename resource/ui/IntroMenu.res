@@ -70,11 +70,11 @@
 		"font"			"Avenir20"
 		"paintbackground"	"0"
 
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"fgcolor"					"AntsHUDWhite"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGray"
+		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 
 	"Continue"
@@ -121,11 +121,11 @@
 		"font"			"Avenir20"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"fgcolor"					"AntsHUDWhite"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGray"
+		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 
 	"ReplayVideo" [$WIN32] 
@@ -255,7 +255,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"IntroMenuCaption"
-		"fgcolor"		"White"
+		"fgcolor"		"AntsHUDWhite"
 		"wrap"			"1"
 	}
 	

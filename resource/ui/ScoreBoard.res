@@ -28,7 +28,7 @@
 	}
 	"BlueScoreBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"BlueScoreBG"
 		"xpos"			"c-270"
 		"ypos"			"144"
@@ -39,12 +39,33 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlueTeamSolid"
-		"scaleImage"		"1"
+		"fillcolor"		"AntsHUDBlue"
+		"scaleImage"	"1"
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
+		}
+	}
+	"BlueScoreBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlueScoreBG2"
+		"xpos"			"c-270"
+		"ypos"			"167"
+		"ypos_minmode"  "302"
+		"wide"			"270"
+		"tall"			"2"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkBlue"
+		"scaleImage"	"1"
+		
+		if_mvm
+		{
+			"visible"	"0"
 		}
 	}
 	"RedScoreBG"
@@ -60,17 +81,38 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeamSolid"
-		"scaleImage"		"1"
+		"fillcolor"		"AntsHUDRed"
+		"scaleImage"	"1"
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
+		}
+	}
+	"RedScoreBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"RedScoreBG"
+		"xpos"			"c0"
+		"ypos"			"167"
+		"ypos_minmode"  "302"
+		"wide"			"270"
+		"tall"			"2"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"AntsHUDDarkRed"
+		"scaleImage"	"1"
+		
+		if_mvm
+		{
+			"visible"	"0"
 		}
 	}
 	"MainBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MainBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -83,12 +125,12 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"ScoreboardBackground"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ScoreboardBackground"
 		"xpos"			"c-270"
 		"ypos"			"169"
@@ -109,7 +151,7 @@
 	
 	"MvMScoreboardBackground"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMScoreboardBackground"
 		"xpos"			"c-270"
 		"ypos"			"244"
@@ -126,80 +168,36 @@
 			"visible"	"0"
 		}		
 	}
-	
-	"Red6sBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ScoreboardBackground"
-		"xpos"			"9999"
-		"xpos_minmode"	"c65"
-		"ypos"			"9999"
-		"ypos_minmode"	"265"
-		"zpos"			"-1"
-		"wide_minmode"	"240"
-		"tall"			"100"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"0 0 0 100"
-		
-		if_mvm
-		{
-			"visible"		"0"
 
-		}
-	}
-	"Blue6sBackground"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ScoreboardBackground"
-		"xpos"			"9999"
-		"xpos_minmode"	"c65"
-		"ypos"			"9999"
-		"ypos_minmode"	"121"
-		"zpos"			"-1"
-		"wide"			"240"
-		"tall"			"100"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fillcolor"		"0 0 0 100"
-		
-		if_mvm
-		{
-			"visible"		"0"
-
-		}
-	}			
 	"BlueTeamLabel1"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel1"
 		"font"			"NeutraDisp32"
 		"labelText"		"%blueteamname%"
-		"textAlignment"		"west"
+		"textAlignment"	"west"
 		"xpos"			"c-268"
-		"ypos"			"139"
+		"ypos"			"138"
 		"ypos_minmode"	"274"
 		"wide"			"200"
 		"tall"			"34"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}							
 	"BlueTeamScore"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
 		"font"			"NeutraDisp56"
 		"labelText"		"%blueteamscore%"
-		"textAlignment"		"east"
+		"textAlignment"	"east"
 		"xpos"			"c-108"
 		"ypos"			"119"
 		"ypos_minmode"	"254"
@@ -213,7 +211,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}
 	"BlueTeamScoreDropshadow"
@@ -221,7 +219,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
 		"font"			"NeutraDisp56"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-106"
@@ -237,7 +235,7 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}							
 	"BlueTeamPlayerCount"
@@ -252,14 +250,14 @@
 		"ypos_minmode"	"257"
 		"wide"			"100"
 		"tall"			"29"
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"visible"	"0"
 		}
 	}							
 	"RedTeamLabel1"
@@ -270,7 +268,7 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"c68"
-		"ypos"			"139"
+		"ypos"			"138"
 		"ypos_minmode"	"274"
 		"wide"			"200"
 		"tall"			"35"
@@ -314,7 +312,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
 		"font"			"NeutraDisp56"
-		"fgcolor"		"Black"
+		"fgcolor"		"ShadowBlack"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c10"
@@ -755,7 +753,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"AntsHUDWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -834,7 +832,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"AntsHUDWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -989,7 +987,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}		
 		"Deaths"
 		{
@@ -1025,7 +1023,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}			
 
 		"GameType"
@@ -1079,7 +1077,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}		
 		"Destruction"
 		{
@@ -1114,7 +1112,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"		
+			"fgcolor_override" "AntsHUDWhite"		
 		}					
 		"CapturesLabel"
 		{
@@ -1217,7 +1215,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"	
+			"fgcolor_override" "AntsHUDWhite"	
 		}			
 		"Defenses"
 		{
@@ -1252,7 +1250,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"	
+			"fgcolor_override" "AntsHUDWhite"	
 		}			
 		"Domination"
 		{
@@ -1287,7 +1285,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"	
+			"fgcolor_override" "AntsHUDWhite"	
 		}			
 		"Revenge"
 		{
@@ -1322,7 +1320,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"				
+			"fgcolor_override" "AntsHUDWhite"				
 		}				
 		"HealingLabel"
 		{
@@ -1425,7 +1423,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"							
+			"fgcolor_override" "AntsHUDWhite"							
 		}			
 		"Invuln"
 		{
@@ -1460,7 +1458,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"							
+			"fgcolor_override" "AntsHUDWhite"							
 		}			
 		"Teleports"
 		{
@@ -1682,7 +1680,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 		"DamageLabel"
 		{

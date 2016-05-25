@@ -13,7 +13,7 @@ Scheme
 		"AntsPrimary"			"0 191 255 255"
 		"AntsPrimaryLight"		"255 146 0 255"
 		"AntsPrimaryDark"		"255 86 0 255"
-		"AntsBlack"				"19 19 19 255"
+		"AntsBlack"				"15 15 15 255"
 		"AntsBlackTrans"		"15 15 15 190"
 		"AntsButtonHover"		"12 52 85 128"
 		

@@ -29,7 +29,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlueTeamSolid"
+		"fillcolor"		"AntsHUDBlue"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -59,7 +59,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeamSolid"
+		"fillcolor"		"AntsHUDRed"
 		"scaleImage"	"1"	
 		
 		"if_hybrid"
@@ -123,7 +123,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"NeutraDisp40"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		
 		"if_hybrid"
 		{
@@ -187,7 +187,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"NeutraDisp40"
-		"fgcolor"		"TanLight"		
+		"fgcolor"		"AntsHUDWhite"		
 		
 		"if_hybrid"
 		{
@@ -294,7 +294,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Avenir14"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		
 		"if_hybrid"
 		{
@@ -474,7 +474,7 @@
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
 		"font"			"HudFontMediumBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 	
 	"SpecCarriedImage"

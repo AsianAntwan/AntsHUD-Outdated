@@ -160,25 +160,25 @@
 		"font"			"Avenir16"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fgcolor_override" "0 191 255 255"
 	}
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"NeutraDisp32"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
+		"xpos"			"c-290"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"210"
@@ -225,16 +225,16 @@
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
-		"unicode"			"0"
+		"uniAvenir"			"0"
 		"default"			"0"
-		"border"			"CyanBorder"
+		"border"			"DeepSkyBorder"
 		
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "White"
+		"disabledFgColor_override" "AntsHUDWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "White"
+		"selectionTextColor_override" "AntsHUDWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	"ShowBaseItemsCheckbox"
@@ -273,7 +273,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"NameFilterTextEntry"
@@ -291,12 +291,12 @@
 		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"		"1"
-		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"19 19 19 255"
+		"uniAvenir"		"1"
+		"fgcolor_override"	"AntsHUDWhite"
+		"bgcolor_override"	"25 25 25 255"
 		"paintbackgroundtype" "0"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 		"font"		"HudFontSmallest"
 	}
 	
@@ -319,14 +319,14 @@
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
-		"unicode"			"0"
+		"uniAvenir"			"0"
 		
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "White"
+		"disabledFgColor_override" "AntsHUDWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "White"
+		"selectionTextColor_override" "AntsHUDWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}	
 	
@@ -444,9 +444,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -487,7 +487,7 @@
 		"tabPosition"	"0"
 		"labelText"		"&D"
 		"font"			"HudFontSmallBold"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		"border"		"NoBorder"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -500,9 +500,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -583,9 +583,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -620,9 +620,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -656,9 +656,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -692,9 +692,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -728,9 +728,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -764,9 +764,9 @@
 		"armedBgColor_override"		"25 25 25 255"
 		"depressedBgColor_override"	"25 25 25 255"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -929,7 +929,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1086,7 +1086,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1151,7 +1151,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1308,7 +1308,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1355,7 +1355,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1530,7 +1530,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1577,7 +1577,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1752,7 +1752,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1799,7 +1799,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1974,7 +1974,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2021,7 +2021,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2195,7 +2195,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{

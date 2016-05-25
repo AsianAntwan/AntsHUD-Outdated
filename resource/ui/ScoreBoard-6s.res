@@ -39,7 +39,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlueTeamSolid"
+		"fillcolor"		"AntsHUDBlue"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -60,7 +60,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeamSolid"
+		"fillcolor"		"AntsHUDRed"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -755,7 +755,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"AntsHUDWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -834,7 +834,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"AvatarTextLabel"
-				"fgcolor"		"TanLight"
+				"fgcolor"		"AntsHUDWhite"
 				"xpos"			"50"
 				"ypos"			"7"
 				"zpos"			"2"
@@ -989,7 +989,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}		
 		"Deaths"
 		{
@@ -1025,7 +1025,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}			
 
 		"GameType"
@@ -1079,7 +1079,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "AntsHUDWhite"
 		}		
 		"Destruction"
 		{
@@ -1114,7 +1114,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"		
+			"fgcolor_override" "AntsHUDWhite"		
 		}					
 		"CapturesLabel"
 		{
@@ -1217,7 +1217,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"	
+			"fgcolor_override" "AntsHUDWhite"	
 		}			
 		"Defenses"
 		{
@@ -1252,7 +1252,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"	
+			"fgcolor_override" "AntsHUDWhite"	
 		}			
 		"Domination"
 		{
@@ -1287,7 +1287,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"	
+			"fgcolor_override" "AntsHUDWhite"	
 		}			
 		"Revenge"
 		{
@@ -1322,7 +1322,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"				
+			"fgcolor_override" "AntsHUDWhite"				
 		}				
 		"HealingLabel"
 		{
@@ -1425,7 +1425,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"							
+			"fgcolor_override" "AntsHUDWhite"							
 		}			
 		"Invuln"
 		{
@@ -1460,7 +1460,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "TanLight"							
+			"fgcolor_override" "AntsHUDWhite"							
 		}			
 		"Teleports"
 		{
@@ -1682,7 +1682,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"TanLight"
+			"fgcolor_override"	"AntsHUDWhite"
 		}
 		"DamageLabel"
 		{

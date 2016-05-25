@@ -9,7 +9,7 @@
 		"ypos"			"352"	[$WIN32]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 	

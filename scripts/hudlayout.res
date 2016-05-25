@@ -86,7 +86,7 @@
 		"ypos"			"c25"	[$WIN32]
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 	
@@ -110,7 +110,7 @@
 		"ypos"			"c25"	[$WIN32]
 		"wide"			"150"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}	
 
@@ -124,7 +124,7 @@
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 		"alpha"			"0"
 	}
@@ -144,7 +144,7 @@
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 
@@ -483,21 +483,21 @@
 		"tall"	 "468"
 
 		"MaxDeathNotices" "10"
-		"IconScale"	  "0.35"
+		"IconScale"	  	  "0.35"
 		"LineHeight"	  "15"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"RightJustify"	  "1"	// If 0, killfeed goes to left of your screen.
 		
 		"TextFont"		"Avenir15"
 		
-		"TeamBlue"		"104 124 155 255"
-		"TeamRed"		"180 92 77 255"
-		"IconColor"		"HudWhite"
+		"TeamBlue"			"AntsHUDBlue"
+		"TeamRed"			"AntsHUDRed"
+		"IconColor"			"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"46 43 42 125"		[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 200"	[$WIN32]
+		"BaseBackgroundColor"	"0 0 0 150"
+		"LocalBackgroundColor"	"White"
 	}
 
 	HudVehicle
@@ -1022,7 +1022,7 @@
 		"ypos"			"c137"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}	
 
@@ -1131,7 +1131,7 @@
 		"xpos"					"c-150"
 		"ypos"					"0"
 		"wide"					"300"
-		"tall"					"55"
+		"tall"					"f0"
 	}
 	
 	NotificationPanel

@@ -26,7 +26,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeamSolid"
+		"fillcolor"		"AntsHUDRed"
 	}
 	"SpecBG"
 	{
@@ -118,7 +118,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"NeutraDisp28"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"teambutton2"
@@ -144,9 +144,9 @@
 		"associated_model"	"autodoor"
 		"font"			"NeutraDisp36"
 		"defaultFgColor_override" 	"255 255 255 128"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"AntsHUDWhite"
 		"depressedFgColor_override" "255 255 255 128"
-		"selectedFgColor_override" 	"TanLight"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 	
 	"teambutton3"
@@ -170,10 +170,10 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectatearea"
 		"font"			"NeutraDisp32"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -200,10 +200,10 @@
 		"paintbackground""0"
 		"command"		"cancelmenu"
 		"font"			"NeutraDisp28"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 	
 	"TeamMenuSelect"
@@ -225,7 +225,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp46"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"TeamMenuAuto"
@@ -272,7 +272,7 @@
 		"wrap"			"0"
 		"font"			"MenuSmallestFont"
 		"font_lodef"	"MenuSmallFont"
-		"fgcolor"		"white"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"MenuBG"

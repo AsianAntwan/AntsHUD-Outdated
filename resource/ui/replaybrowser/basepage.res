@@ -24,7 +24,7 @@
 		"maxchars"		"255"
 		"textHidden"	"0"
 		"textAlignment"	"west"
-		"unicode"		"1"
+		"uniAvenir"		"1"
 		"wrap"			"0"
 		"xpos"			"c+100"
 		"ypos"			"5"
@@ -35,7 +35,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"fgcolor_override"		"TanLight"
+		"fgcolor_override"		"AntsHUDWhite"
 		"bgcolor_override"		"0 0 0 255"
 		"Font"			"HudFontSmallest"
 	}

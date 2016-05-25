@@ -12,7 +12,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"TanLight"
+		"bgcolor_override"	"AntsHUDWhite"
 	}	
 	
 	"BackgroundGood"
@@ -66,7 +66,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyLabel"
 		"font"			"Avenir14"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		"xpos"			"4"
 		"ypos"			"0"
 		"zpos"			"3"

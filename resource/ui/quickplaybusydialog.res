@@ -32,7 +32,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"NoBorder"
 		"bgcolor_override"		"25 25 25 255"
 
 		"Background"
@@ -146,7 +146,7 @@
 		"tabPosition"		"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"CyanBorderThick"
+		"border"				"NoBorder"
 		"bgcolor_override"		"25 25 25 255"
 
 

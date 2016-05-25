@@ -41,7 +41,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"NeutraDisp28"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"xpos"			"12"			// align me to the left edge of the first selection
 		"ypos"			"42"
 		"zpos"			"3"

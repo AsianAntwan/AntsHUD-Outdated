@@ -17,7 +17,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override" "White"
+		"fgcolor_override" "AntsHUDWhite"
 		"bgcolor_override"		"0 0 0 100"
 	}
 	"ChargeMeterLabel"

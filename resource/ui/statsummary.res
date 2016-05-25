@@ -238,7 +238,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 	
 	}					
 	"MapLabel"
@@ -257,7 +257,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 	}
 	"MapType"
 	{
@@ -275,7 +275,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 	}					
 	"StatData"
 	{
@@ -400,7 +400,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
-				"unicode"		"0"
+				"uniAvenir"		"0"
 			}
 			"BarChartComboB"
 			{
@@ -420,7 +420,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
-				"unicode"		"0"
+				"uniAvenir"		"0"
 			}
 			"ClassCombo"
 			{
@@ -440,7 +440,7 @@
 				"editable"		"0"
 				"maxchars"		"-1"
 				"NumericInputOnly"		"0"
-				"unicode"		"0"
+				"uniAvenir"		"0"
 			}
 		}
 		"AveragesBG"
@@ -2733,7 +2733,7 @@
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
-		"bgcolor"			"TanDarker"
+		"bgcolor"			"AntsHUDDarkGray"
 		"paintbackground"	"1"
 		"tall"				"100"
 		"tall_lodef"				"60"

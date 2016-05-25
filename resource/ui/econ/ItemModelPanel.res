@@ -94,7 +94,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"White"
+			"fgcolor"		"AntsHUDWhite"
 			"centerwrap"	"1"
 		}
 		"attriblabel"

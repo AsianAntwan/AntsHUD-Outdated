@@ -65,11 +65,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -102,8 +102,8 @@
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
-		"fgcolor"		"TanLessLight"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor_lodef"	"AntsHUDWhite"
 	}
 	"scout"
 	{
@@ -126,11 +126,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -165,11 +165,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -204,11 +204,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -241,8 +241,8 @@
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
 		"font_lodef"			"MenuMainTitle"
-		"fgcolor"		"TanLessLight"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor_lodef"	"AntsHUDWhite"
 	}
 	"demoman"
 		{
@@ -266,11 +266,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -305,11 +305,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -344,11 +344,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -380,8 +380,8 @@
 		"textAlignment"	"left"
 		"font"			"MenuClassBuckets"
 		"font_lodef"	"MenuMainTitle"
-		"fgcolor"		"TanLessLight"
-		"fgcolor_lodef"	"TanLight"
+		"fgcolor"		"AntsHUDLessWhite"
+		"fgcolor_lodef"	"AntsHUDWhite"
 	}
 	"medic"
 			{
@@ -405,11 +405,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -443,11 +443,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -481,11 +481,11 @@
 		"scaleImage"		"1"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLessLight"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLessLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"fgcolor"					"AntsHUDLessWhite"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDLessWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -592,7 +592,7 @@
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
 		"font"			"NeutraDisp24"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"MenuBG"
@@ -942,7 +942,7 @@
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
 		"font"			"HudFontMediumSmallSecondary"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"numScout" [$WIN32]
@@ -962,7 +962,7 @@
 		"labelText"		"%numScout%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 	
 	"numSoldier" [$WIN32]
@@ -982,7 +982,7 @@
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 	
 	"numPyro" [$WIN32]
@@ -1002,7 +1002,7 @@
 		"labelText"		"%numPyro%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}		
 	
 	"numDemoman" [$WIN32]
@@ -1022,7 +1022,7 @@
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}				
 	
 	"numHeavy" [$WIN32]
@@ -1042,7 +1042,7 @@
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}							
 	
 	"numEngineer" [$WIN32]
@@ -1062,7 +1062,7 @@
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}						
 	
 	"numMedic" [$WIN32]
@@ -1082,7 +1082,7 @@
 		"labelText"		"%numMedic%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}							
 	
 	"numSniper" [$WIN32]
@@ -1102,7 +1102,7 @@
 		"labelText"		"%numSniper%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}						
 	
 	"numSpy" [$WIN32]
@@ -1122,7 +1122,7 @@
 		"labelText"		"%numSpy%"
 		"textAlignment"	"Center"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"	
+		"fgcolor"		"AntsHUDWhite"	
 	}		
 	
 	"MvMUpgradeImageScout"
@@ -1561,7 +1561,7 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "46 43 42 255"
-			"armedFgColor_override" "White"
+			"armedFgColor_override" "AntsHUDWhite"
 			"depressedFgColor_override" "46 43 42 255"
 			
 			"image_drawcolor"	"117 107 94 255"

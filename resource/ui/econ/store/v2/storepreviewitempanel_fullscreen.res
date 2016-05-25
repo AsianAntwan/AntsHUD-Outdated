@@ -194,10 +194,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
+			"fgcolor"			"AntsHUDGray"
+			"defaultFgColor_override" "AntsHUDGray"
+			"armedFgColor_override" "AntsHUDGray"
+			"depressedFgColor_override" "AntsHUDGray"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -327,7 +327,7 @@
 		"Command"		"tryitout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 	
 	"AddToCartButton"

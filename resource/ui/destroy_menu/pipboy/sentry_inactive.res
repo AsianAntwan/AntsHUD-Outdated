@@ -120,7 +120,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"NeutraDisp20"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"xpos"			"1"
 		"ypos"			"96"
 		"zpos"			"1"

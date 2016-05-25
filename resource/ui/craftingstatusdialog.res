@@ -11,9 +11,9 @@
 		"tall"					"110"
 		"paintbackgroundtype"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"19 19 19 255"
+		"bgcolor_override"		"25 25 25 255"
 		"settitlebarvisible"	"0"
-		"border"				"CyanBorder"
+		"border"				"DeepSkyBorder"
 	}
 	
 	"CenterPositioner"
@@ -62,7 +62,7 @@
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
 		"textAlignment"		"center"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 		"bgcolor_override" "0 0 0 0"
 		"auto_wide_tocontents" "1"
 		
@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"west"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "AntsHUDWhite"
 		"bgcolor_override" "0 0 0 0"
 		
 		"pin_to_sibling"               "TitleLabel"
@@ -118,13 +118,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"19 19 19 255k"
-		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"19 19 19 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDWhite"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 }

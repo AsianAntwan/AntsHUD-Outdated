@@ -78,9 +78,9 @@
 		"editable"			"1"
 		"maxchars"			"6"
 		"NumericInputOnly"	"0"
-		"unicode"			"0"
+		"uniAvenir"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"0 0 0 0"
 		"labelText"			"%teamname%"
 		"font" 				"Avenir12"
@@ -129,7 +129,7 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "TanLight"
+		"defaultFgColor_override" "AntsHUDWhite"
 		"armedFgColor_override" "Button Color"
 		"depressedFgColor_override" "Button Color"
 	}
@@ -161,7 +161,7 @@
 		"border_armed"		""
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "TanLight"
+		"defaultFgColor_override" "AntsHUDWhite"
 		"armedFgColor_override" "Button Color"
 		"depressedFgColor_override" "Button Color"
 	}

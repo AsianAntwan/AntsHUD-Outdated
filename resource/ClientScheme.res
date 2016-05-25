@@ -6,143 +6,119 @@ Scheme
 	{	
 	
 		//-----------------------------------------------------
-		// ahud Colors & Added Colors
+		// Game UI Colors
 		//-----------------------------------------------------
-		
-		//Keep in mind that some HUD elements were taken from ahud
-		//hence the "ahud Colors" being here.
-		
-		"Crosshair"				"255 255 255 255"
-		"CrosshairDamage"		"0 255 0 255"		// For no damage flash, set to the
-													// same value as Crosshair
-	
-		"LowAmmo"				"255 0 0 200"	
-		
-		//antshud colors
-	
-		"Ammo In Clip"							"255 255 255 255"
-		"Ammo In Reserve"						"0 191 255 255"
-		
-		//refers to watching stvs/killcam shots
-		"Spec Health Normal"					"255 255 255 255"
-		"Spec Health Buff"						"255 255 255 255"			
-		"Spec Health Hurt"						"255 255 255 255"
 
-		//refers to player health/targetids
-		"Health Normal"							"255 255 255 255"
-		"Health Buff"							"0 225 255 200"
-		"Health Hurt"							"255 0 0 200"
+		"Crosshair"					"255 255 255 255"
+		"CrosshairDamage"			"0 255 0 255"
 		
-		"Uber Bar Color"						"0 191 255 255"
+		"ShadowBlack"				"0 0 0 196"
 
-		//solid color uber disabled by default; to enable, uncomment lines in hudanimations_tf.txt
-		"Solid Color Uber"						"255 50 255 255"
+		"Health Normal"				"255 255 255 255"
+		"Health Buff"				"0 225 255 200"
+		"Health Hurt"				"255 0 0 200"
+
+		"Ammo In Clip"				"255 255 255 255"
+		"Ammo In Reserve"			"0 191 255 255"
+		"LowAmmo"					"255 0 0 200"
+
+		"Heal Numbers"				"0 255 127 255"
+		"Damage Numbers"			"255 255 0 255"
+		"Last DamageHeal Info"		"255 255 0 255"
 		
-		"Flashing Uber Color1"					"0 191 255 255"
-		"Flashing Uber Color2"					"0 125 255 255"
-		//"Ubercharge Amount"					"255 255 255 255" // disabled temporarily; currently controlled by ammo in clip color
-	
-		"Heal Numbers"							"0 191 255 255"
-		"Damage Numbers"						"255 255 0 255"
-		
-		//'Last DamageHeal Info' refers to the number that appears above hp
-		"Last DamageHeal Info"					"255 255 0 255"
-		
-		//Menu/Color scheme colors
+		"Uber Bar Color"			"0 191 255 255"
+		"Flashing Uber Color1"		"0 191 255 255"
+		"Flashing Uber Color2"		"0 164 255 255"
+		"Ubercharge Amount"			"255 255 255 255"
+
+		//-----------------------------------------------------
+		// AntsHUD Colors
+		//-----------------------------------------------------
+
 		"TransparentPanelBG"		"25 25 25 128"
 		"Base Color"				"0 191 255 255"
-		"Button Color"				"0 191 255 255"	
+		"Button Color"				"0 191 255 255"
+		"ButtonBG"					"30 30 30 255"
 		
-		"Inactive Tab"				"0 191 255 255"	
+		"Inactive Tab"				"0 191 255 255"
+		"BGFooter"					"20 20 20 255"
+		"BGHeader"					"20 20 20 255"
 		
-		"StatBar1"						"0 191 255 255"
-		"StatBar2"						"0 181 255 255"
-		"StatBar3"						"0 171 255 255"
-		"StatBar4"						"0 161 255 255"
-		"StatBar5"						"0 151 255 255"
-		"StatBar6"						"0 141 255 255"
-		"StatBar7"						"0 131 255 255"
-		"StatBar8"						"0 121 255 255"
-		"StatBar9"						"0 111 255 255"
+		"StatBar1"					"0 191 255 255"
+		"StatBar2"					"0 181 255 255"
+		"StatBar3"					"0 171 255 255"
+		"StatBar4"					"0 161 255 255"
+		"StatBar5"					"0 151 255 255"
+		"StatBar6"					"0 141 255 255"
+		"StatBar7"					"0 131 255 255"
+		"StatBar8"					"0 121 255 255"
+		"StatBar9"					"0 111 255 255"
+
+		"ItemPanelBG"				"50 50 50 255"
 		
-		//item backdrop color, refers to background color when mousing over items
-		"ItemPanelBG"					"50 50 50 255"
-	
-		//Rainbow Uber Colors
+		"AntsHUDBlue"				"70 130 180 255"
+		"AntsHUDDarkBlue"			"45 105 155 255"
+		"AntsHUDRed"				"190 50 50 255"
+		"AntsHUDDarkRed"			"165 25 25 255"
 		
-			"ColorRed"						"255 0 0 255"
-			"ColorVermillion"				"255 64 0 255"
-			"ColorOrange"					"255 128 0 255"
-			"ColorYellow"					"255 255 0 255"
-			"ColorLime"						"128 255 0 255"
-			"ColorGreen"					"0 255 0 255"
-			"ColorTeal"						"0 255 128 255"
-			"ColorCyan"						"0 255 255 255"
-			"ColorAqua"						"0 128 255 255"
-			"ColorBlue"						"0 0 255 255"
-			"ColorPurple"					"128 0 255 255"
-			"ColorMagenta"					"255 0 255 255"
-			"ColorRuby"						"255 0 128 255"
-			"ColorBlack"					"0 0 0 255"
-			"ColorGreyDark"					"64 64 64 255"
-			"ColorGreyMid"					"128 128 128 255"
-			"ColorGreyLight"				"192 192 192 255"
-			"ColorWhite"					"255 255 255 255"
-			
-		//end antshud colors
+		"AntsHUDWhite"				"255 255 255 255"
+		"AntsHUDLessWhite"			"200 200 200 255"
+		
+		"AntsHUDGray"				"125 125 125 255"
+		"AntsHUDDarkGray"			"75 75 75 255"
 		
 		//-----------------------------------------------------
 		// HUD Colors
 		//-----------------------------------------------------
 			
 		// base colors
-		"Orange"			"Base Color"
-		"OrangeDim"			"Base Color"
-		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"Orange"					"178 82 22 255"
+		"OrangeDim"					"178 82 22 120"
+		"LightOrange"				"188 112 0 128"
+		"GoalOrange"				"255 133 0"
+		"TFOrange"					"145 73 59 255"
 		
-		"QuestGold"			"208 147 75 255"
-		"HalloweenThemeColor2015_Light"	"238 126 17 255"
-		"HalloweenThemeColor2015"		"135 54 16 255"
-		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestStandardHighlight"	"0 255 0 255"
-		"QuestBonusHighlight"		"150 160 255 255"
+		"QuestGold"							"208 147 75 255"
+		"HalloweenThemeColor2015_Light"		"238 126 17 255"
+		"HalloweenThemeColor2015"			"135 54 16 255"
+		"HalloweenThemeColor2015_Dark"		"108 49 21 255"
+		"QuestStandardHighlight"			"0 255 0 255"
+		"QuestBonusHighlight"				"150 160 255 255"
 		
-		"White"				"255 255 255 255"
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
-		//"Black"				"0 0 0 255"
+		"White"						"235 235 235 255"
+		"Red"						"192 28 0 140"
+		"RedSolid"					"192 28 0 255"
+		"Blue"						"0 28 162 140"
+		"Yellow"					"251 235 202 255"
+		"TransparentYellow"			"251 235 202 140"
+		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"GreenSolid"		 "76 107 34 255"	
+		"GreenSolid"		 		"76 107 34 255"	
 		
-		"Black"				"46 43 42 255"
-		"TransparentBlack"	"0 0 0 196"
-		"TransparentLightBlack"	"0 0 0 90"
-		"FooterBGBlack"		"52 48 55 255"
+		"Black"						"46 43 42 255"
+		"TransparentBlack"			"0 0 0 196"
+		"TransparentLightBlack"		"0 0 0 90"
+		"FooterBGBlack"				"52 48 55 255"
 		
-		"HUDBlueTeam"		"70 130 160 175"
-		"HUDRedTeam"		"190 50 50 175"
-		"HUDSpectator"		"124 124 124 175"
-		"HUDBlueTeamSolid"	"70 130 180 255"
-		"HUDRedTeamSolid"	"190 50 50 255"
-		"Health Hurt"		"255 0 0 255"
-		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
-		"HudBlack"			"65 65 65 255"
-		"ProgressBarBlue"	"91 122 142 255"
+		"HUDBlueTeam"				"104 124 155 127"
+		"HUDRedTeam"				"180 92 77 127"
+		"HUDSpectator"				"124 124 124 127"
+		"HUDBlueTeamSolid"			"104 124 155 255"
+		"HUDRedTeamSolid"			"180 92 77 255"
+		"HUDDeathWarning"			"255 0 0 255"
+		"HudWhite"					"255 255 255 255"
+		"HudOffWhite"				"200 187 161 255"
+		"HudBlack"					"65 65 65 255"
+		"ProgressBarBlue"			"91 122 142 255"
 		
-		"CreditsGreen"		"94 150 49 255"
+		"CreditsGreen"				"94 150 49 255"
 		
-		"Gray"				"178 178 178 255"
+		"Gray"						"178 178 178 255"
 
-		"Blank"				"0 0 0 0"
-		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"0 255 0 255"
-		"ForTesting_MagentaDim"	"0 255 0 120"
+		"Blank"						"0 0 0 0"
+		"ForTesting"				"255 0 0 32"
+		"ForTesting_Magenta"		"0 255 0 255"
+		"ForTesting_MagentaDim"		"0 255 0 120"
 
 		"HudPanelForeground"		"123 110 59 184"
 		"HudPanelBackground"		"123 110 59 184"
@@ -160,29 +136,28 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"100 100 100 255"
-		"TanLessLight"			"200 200 200 255"
-		"TanLight"				"255 255 255 255"
-		"TanDarker"				"60 60 60 255"
+		"TanDark"					"117 107 94 255"
+		"TanLight"					"235 226 202 255"
+		"TanDarker"					"46 43 42 255"
 		
-		"StoreDarkTan"			"131 121 104 255"
-		"StoreGreen"			"76 107 34 255"
+		"StoreDarkTan"				"131 121 104 255"
+		"StoreGreen"				"76 107 34 255"
 		
 		// Building HUD Specific
-		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
+		"LowHealthRed"				"255 0 0 255"
+		"ProgressOffWhite"			"251 235 202 255"
+		"ProgressBackground"		"250 234 201 51"
+		"HealthBgGrey"				"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"		"251 235 202 128"
 		
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"	"109 96 80 180"
+		"LabelDark"					"48 43 42 255"
+		"LabelTransparent"			"109 96 80 180"
 		
-		"BuildMenuActive"	"248 231 198 255"
+		"BuildMenuActive"			"248 231 198 255"
 		
-		"DisguiseMenuIconRed"	"192 56 63 255"
-		"DisguiseMenuIconBlue"	"92 128 166 255"
+		"DisguiseMenuIconRed"		"192 56 63 255"
+		"DisguiseMenuIconBlue"		"92 128 166 255"
 
  		"MatchmakingDialogTitleColor"			"0 191 255 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
@@ -193,7 +168,7 @@ Scheme
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"White"
+		"ItemAttribNeutral"						"235 226 202 255"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -263,16 +238,16 @@ Scheme
 		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"								"41 37 38 255"
 		
-		"UpgradeDefaultFg"		"87 82 74 255"
-		"UpgradeDefaultBg"		"111 104 94 255"
-		"UpgradeArmedFg"		"194 96 47 255"
-		"UpgradeArmedBg"		"239 128 73 255"
-		"UpgradeDepressedFg"	"204 106 57 255"
-		"UpgradeDepressedBg"	"249 138 83 255"
-		"UpgradeSelectedFg"		"204 106 57 255"
-		"UpgradeSelectedBg"		"249 138 83 255"
-		"UpgradeDisabledFg"		"64 59 52 255"
-		"UpgradeDisabledBg"		"79 77 68 255"
+		"UpgradeDefaultFg"			"87 82 74 255"
+		"UpgradeDefaultBg"			"111 104 94 255"
+		"UpgradeArmedFg"			"194 96 47 255"
+		"UpgradeArmedBg"			"239 128 73 255"
+		"UpgradeDepressedFg"		"204 106 57 255"
+		"UpgradeDepressedBg"		"249 138 83 255"
+		"UpgradeSelectedFg"			"204 106 57 255"
+		"UpgradeSelectedBg"			"249 138 83 255"
+		"UpgradeDisabledFg"			"64 59 52 255"
+		"UpgradeDisabledBg"			"79 77 68 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -286,41 +261,41 @@ Scheme
 		ReplayBrowser.Button.ArmedBgColor					"TFOrange"
 		ReplayBrowser.Button.DepressedBgColor				"TFOrange"
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
-		ReplayBrowser.Warning.FgColor						"White"
+		ReplayBrowser.Warning.FgColor						"AntsHUDWhite"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
-		ReplayBrowser.Search.BgColor						"TanDark"
-		ReplayBrowser.Search.FgColor						"White"
+		ReplayBrowser.Search.BgColor						"AntsHUDGray"
+		ReplayBrowser.Search.FgColor						"AntsHUDWhite"
 		
-		Replay.RenderDialog.BgColor							"19 19 19 255"
+		Replay.RenderDialog.BgColor							"ButtonBG"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"19 19 19 255"
-		Econ.Button.FgColor									"TanDark"
-		Econ.Button.ArmedBgColor							"Base Color"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"19 19 19 255"
-		Econ.Button.DepressedFgColor						"TanDark"
+		Econ.Button.BgColor									"ButtonBG"
+		Econ.Button.FgColor									"AntsHUDGray"
+		Econ.Button.ArmedBgColor							"Button Color"
+		Econ.Button.ArmedFgColor							"AntsHUDWhite"
+		Econ.Button.DepressedBgColor						"ButtonBG"
+		Econ.Button.DepressedFgColor						"AntsHUDGray"
 		
 		Econ.Button.PresetDefaultColorFg					"0 191 255 255"
 		Econ.Button.PresetArmedColorFg						"0 191 255 255"
 		Econ.Button.PresetDepressedColorFg					"0 191 255 255"
 		
-		Econ.Button.PresetDefaultColorBg					"19 19 19 255"
-		Econ.Button.PresetArmedColorBg						"Base Color"
-		Econ.Button.PresetDepressedColorBg					"19 19 19 255"
+		Econ.Button.PresetDefaultColorBg					"ButtonBG"
+		Econ.Button.PresetArmedColorBg						"Button Color"
+		Econ.Button.PresetDepressedColorBg					"ButtonBG"
 		
 		Border.Bright					"NoBorder"		// the lit side of a control
 		Border.Dark						"NoBorder"		// the dark/unlit side of a control
 		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
-		Button.BgColor					"19 19 19 255"
-		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"Base Color"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"Base Color"
-		Button.DepressedTextColor		"TanLight"
-		Button.DepressedBgColor			"19 19 19 255"
+		Button.TextColor				"AntsHUDWhite"
+		Button.BgColor					"ButtonBG"
+		Button.ArmedTextColor			"AntsHUDWhite"
+		Button.ArmedBgColor				"Button Color"
+		Button.SelectedTextColor		"AntsHUDWhite"
+		Button.SelectedBgColor			"Button Color"
+		Button.DepressedTextColor		"AntsHUDWhite"
+		Button.DepressedBgColor			"Button Color"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -330,8 +305,8 @@ Scheme
 		CheckButton.Check				"Yellow"		// color of the check itself
 		CheckButton.HighlightFgColor	"Yellow"
 		
-		ComboBoxButton.ArrowColor		"TanLight"
-		ComboBoxButton.ArmedArrowColor	"TanLight"
+		ComboBoxButton.ArrowColor		"AntsHUDWhite"
+		ComboBoxButton.ArmedArrowColor	"AntsHUDWhite"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -352,36 +327,36 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Orange"
+		FrameTitleBar.TextColor			"Base Color"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Orange"
-		FrameTitleBar.DisabledBgColor	"Blank"
+		FrameTitleBar.DisabledTextColor	"Base Color"
+		FrameTitleBar.DisabledBgColor	"Base Color"
 
-		GraphPanel.FgColor				"Orange"
+		GraphPanel.FgColor				"Base Color"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
-		Label.SelectedTextColor			"White"
+		Label.TextDullColor				"AntsHUDGray"
+		Label.TextColor					"AntsHUDWhite"
+		Label.TextBrightColor			"AntsHUDWhite"
+		Label.SelectedTextColor			"AntsHUDWhite"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Orange"
+		ListPanel.TextColor					"Base Color"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Orange"
+		ListPanel.EmptyListInfoTextColor	"Base Color"
 
-		Menu.TextColor					"TanLight"
+		Menu.TextColor					"AntsHUDWhite"
 		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"TanDark"
-		Menu.ArmedBgColor				"TanLight"
+		Menu.ArmedTextColor				"AntsHUDGray"
+		Menu.ArmedBgColor				"AntsHUDWhite"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"Base Color"
 
 		Panel.FgColor					"Gray"
 		Panel.BgColor					"Blank"
@@ -391,19 +366,19 @@ Scheme
 		ProgressBar.FgColor				"ProgressOffWhite"
 		ProgressBar.BgColor				"ProgressBackground"
 
-		CircularProgressBar.FgColor		"White"
-		CircularProgressBar.BgColor		"White"
+		CircularProgressBar.FgColor		"AntsHUDWhite"
+		CircularProgressBar.BgColor		"AntsHUDWhite"
 		
 		"BuildingHealthBar.BgColor"		"HealthBgGrey"
 		"BuildingHealthBar.Health"		"ProgressOffWhite"
 		"BuildingHealthBar.LowHealth"	"LowHealthRed"
 
-		PropertySheet.TextColor				"White"
-		PropertySheet.SelectedTextColor		"White"
+		PropertySheet.TextColor				"AntsHUDWhite"
+		PropertySheet.SelectedTextColor		"AntsHUDWhite"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
 		RadioButton.TextColor			"Base Color"
-		RadioButton.SelectedTextColor	"Orange"
+		RadioButton.SelectedTextColor	"Base Color"
 
 		RichText.TextColor				"Gray"
 		RichText.BgColor				"Blank"
@@ -420,92 +395,92 @@ Scheme
 		ScrollBarSlider.FgColor				"Gray"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
-		SectionedListPanel.HeaderTextColor	"White"
+		SectionedListPanel.HeaderTextColor	"AntsHUDWhite"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"Black"
-		SectionedListPanel.TextColor		"White"
+		SectionedListPanel.TextColor		"AntsHUDWhite"
 		SectionedListPanel.BgColor			"TransparentLightBlack"
-		SectionedListPanel.BrightTextColor	"White"
+		SectionedListPanel.BrightTextColor	"AntsHUDWhite"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Orange"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"Base Color"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
-		Slider.NobColor				"108 108 108 255"
-		Slider.TextColor			"127 140 127 255"
-		Slider.TrackColor			"31 31 31 255"
-		Slider.DisabledTextColor1	"117 117 117 255"
-		Slider.DisabledTextColor2	"19 19 19 255"
+		Slider.NobColor					"108 108 108 255"
+		Slider.TextColor				"127 140 127 255"
+		Slider.TrackColor				"31 31 31 255"
+		Slider.DisabledTextColor1		"117 117 117 255"
+		Slider.DisabledTextColor2		"ButtonBG"
 
-		TextEntry.TextColor			"Gray"
-		TextEntry.BgColor			"Blank"
-		TextEntry.CursorColor		"Gray"
-		TextEntry.DisabledTextColor	"Gray"
-		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"TanLight"
-		TextEntry.SelectedBgColor	"Gray"
+		TextEntry.TextColor				"Gray"
+		TextEntry.BgColor				"Blank"
+		TextEntry.CursorColor			"Gray"
+		TextEntry.DisabledTextColor		"Gray"
+		TextEntry.DisabledBgColor		"Blank"
+		TextEntry.SelectedTextColor		"AntsHUDWhite"
+		TextEntry.SelectedBgColor		"Gray"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
-		TextEntry.FocusEdgeColor	"Blank"
+		TextEntry.FocusEdgeColor		"Blank"
 
-		ToggleButton.SelectedTextColor	"White"
+		ToggleButton.SelectedTextColor	"AntsHUDWhite"
 
-		Tooltip.TextColor			"TransparentBlack"
-		Tooltip.BgColor				"Red"
+		Tooltip.TextColor				"TransparentBlack"
+		Tooltip.BgColor					"Red"
 
-		TreeView.BgColor			"TransparentBlack"
+		TreeView.BgColor				"TransparentBlack"
 
-		WizardSubPanel.BgColor		"Blank"
+		WizardSubPanel.BgColor			"Blank"
 		
-		TimerProgress.Active		"HudTimerProgressActive"
-		TimerProgress.InActive		"HudTimerProgressInActive"
-		TimerProgress.Warning		"HudTimerProgressWarning"
+		TimerProgress.Active			"HudTimerProgressActive"
+		TimerProgress.InActive			"HudTimerProgressInActive"
+		TimerProgress.Warning			"HudTimerProgressWarning"
 
-		HudObjectives.FgColor		"HudPanelForeground"
-		HudObjectives.BgColor		"HudPanelBackground"
-		HudObjectives.BorderColor	"HudPanelBorder"
+		HudObjectives.FgColor			"HudPanelForeground"
+		HudObjectives.BgColor			"HudPanelBackground"
+		HudObjectives.BorderColor		"HudPanelBorder"
 				
-		HudProgressBar.Active		"HudProgressBarActive"
-		HudProgressBar.InActive		"HudProgressBarInActive"
+		HudProgressBar.Active			"HudProgressBarActive"
+		HudProgressBar.InActive			"HudProgressBarInActive"
 		
-		HudCaptureIcon.Active		"HudProgressBarActive"
-		HudCaptureIcon.InActive		"HudProgressBarInActive"
+		HudCaptureIcon.Active			"HudProgressBarActive"
+		HudCaptureIcon.InActive			"HudProgressBarInActive"
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
 		HudCaptureProgressBar.InActive	"HudProgressBarInActive"
 
 		// scheme-specific colors
-		"FgColor"		"255 180 60 255"
-		"BgColor"		"TransparentBlack"
+		"FgColor"					"255 180 60 255"
+		"BgColor"					"TransparentBlack"
 
-		"ViewportBG"		"Blank"
-		"TeamSpec"			"204 204 204 255"
-		"TeamRed"			"255 64 64 255"
-		"TeamBlue"			"153 204 255 255"
+		"ViewportBG"				"Blank"
+		"TeamSpec"					"204 204 204 255"
+		"TeamRed"					"255 64 64 255"
+		"TeamBlue"					"153 204 255 255"
 
-		"MapDescriptionText"	"Gray" // the text used in the map description window
-		"HudIcon_Green"		"0 160 0 255"
-		"HudIcon_Red"		"160 0 0 255"
+		"MapDescriptionText"		"Gray" // the text used in the map description window
+		"HudIcon_Green"				"0 160 0 255"
+		"HudIcon_Red"				"160 0 0 255"
 
 		// CHudMenu
-		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+		"ItemColor"					"255 167 42 200"	// default 255 167 42 255
+		"MenuColor"					"233 208 173 255"
+		"MenuBoxBg"					"0 0 0 100"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"251 235 202 255"
-		"SelectionTextFg"		"251 235 202 255"
-		"SelectionEmptyBoxBg" 	"0 0 0 80"
-		"SelectionBoxBg" 		"0 0 0 80"
-		"SelectionSelectedBoxBg" "0 0 0 190"
+		"SelectionNumberFg"			"251 235 202 255"
+		"SelectionTextFg"			"251 235 202 255"
+		"SelectionEmptyBoxBg" 		"0 0 0 80"
+		"SelectionBoxBg" 			"0 0 0 80"
+		"SelectionSelectedBoxBg" 	"0 0 0 190"
 
 		// Hint message colors
-		"HintMessageFg"			"255 255 255 255"
-		"HintMessageBg" 		"0 0 0 60"
+		"HintMessageFg"				"255 255 255 255"
+		"HintMessageBg" 			"0 0 0 60"
 
-		"ProgressBarFg"			"255 30 13 255"
+		"ProgressBarFg"				"255 30 13 255"
 
 		// Top-left corner of the menu on the main screen
-		"Main.Menu.X"		"32"
-		"Main.Menu.Y"		"248"
+		"Main.Menu.X"				"32"
+		"Main.Menu.Y"				"248"
 
 		// Blank space to leave beneath the menu on the main screen
 		"Main.BottomBorder"	"32"
@@ -3687,6 +3662,36 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Avenir17"
+		{
+			"1"
+			{
+				"name"		 "AvenirLTStd-Medium"
+				"tall" 		 "17"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Avenir18"
+		{
+			"1"
+			{
+				"name"		 "AvenirLTStd-Medium"
+				"tall" 		 "18"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"Avenir19"
+		{
+			"1"
+			{
+				"name"		 "AvenirLTStd-Medium"
+				"tall" 		 "19"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
 		"Avenir20"
 		{
 			"1"
@@ -3970,6 +3975,17 @@ Scheme
 				"outline"	 "1"
 			}
 		}
+		"NeutraDispOutline20"
+		{
+			"1"
+			{
+				"name"		 "Neutra Display Titling"
+				"tall" 		 "20"
+				"additive"	 "0"
+				"antialias"	 "1"
+				"outline"	 "1"
+			}
+		}
 		"NeutraDispOutline24"
 		{
 			"1"
@@ -4162,6 +4178,96 @@ Scheme
 				"antialias"	 "1"
 			}
 		}
+		"Time16"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"16"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time17"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"17"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time18"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time19"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"19"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time20"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"20"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time21"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"18"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time22"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"22"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time23"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"23"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
+		"Time24"
+		{
+			"1"
+			{
+				"name"	"AvenirLTStd-Heavy"
+				"tall"	"24"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+		}
 		"Symbols"
 		{
 			"1"
@@ -4266,7 +4372,7 @@ Scheme
 			}
 		}
 		
-		CyanBorderTabs
+		DeepSkyBorderTabs
 		{
 			"inset" "0 0 1 1"
 			Left
@@ -4356,7 +4462,7 @@ Scheme
 				}
 			}
 		}
-		CyanBorderTabsInactive
+		DeepSkyBorderTabsInactive
 		{
 			"inset" "0 0 1 1"
 			Left
@@ -4446,14 +4552,14 @@ Scheme
 				}
 			}
 		}
-		CyanBorder
+		DeepSkyBorder
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 4"
 				}
 			}
@@ -4462,7 +4568,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -4471,7 +4577,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
@@ -4480,29 +4586,29 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 			}
 		}
-		CyanBorderThick
+		DeepSkyBorderThick
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -4511,17 +4617,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -4530,17 +4636,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -4549,17 +4655,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Blank"
+					"color" "Base Color"
 					"offset" "2 0"
 				}
 			}
@@ -4572,17 +4678,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "2 0"
 				}
 			}
@@ -4591,17 +4697,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "2 0"
 				}
 			}
@@ -4610,17 +4716,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "2 0"
 				}
 			}
@@ -4629,23 +4735,23 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "2 0"
 				}
 			}
 		}
 		
-		DarkCyanBorder
+		DarkDeepSkyBorder
 		{
 			"inset" "0 0 0 0"
 			Left
@@ -4942,7 +5048,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 1"
 				}
 			}
@@ -4951,7 +5057,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "1 0"
 				}
 			}
@@ -4960,7 +5066,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 			}
@@ -4969,7 +5075,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 			}
@@ -5110,7 +5216,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 1"
 				}
 			}
@@ -5119,7 +5225,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "1 0"
 				}
 			}
@@ -5128,7 +5234,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -5137,7 +5243,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -5189,7 +5295,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 1"
 				}
 			}
@@ -5198,7 +5304,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "1 0"
 				}
 			}
@@ -5388,7 +5494,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 1"
 				}
 			}
@@ -5397,7 +5503,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "1 0"
 				}
 			}
@@ -5406,7 +5512,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}
@@ -5415,7 +5521,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}
@@ -5430,7 +5536,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 			}
@@ -6639,7 +6745,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 1"
 				}
 			}
@@ -6648,7 +6754,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "1 0"
 				}
 			}
@@ -6657,7 +6763,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}
@@ -6666,7 +6772,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDarker"
+					"color" "AntsHUDDarkGray"
 					"offset" "0 0"
 				}
 			}
@@ -6679,7 +6785,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 1"
 				}
 			}
@@ -6688,7 +6794,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "1 0"
 				}
 			}
@@ -6697,7 +6803,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -6706,7 +6812,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -6719,7 +6825,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 1"
 				}
 			}
@@ -6728,7 +6834,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "1 0"
 				}
 			}
@@ -6737,7 +6843,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 			}
@@ -6746,7 +6852,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanLight"
+					"color" "AntsHUDWhite"
 					"offset" "0 0"
 				}
 			}
@@ -6996,7 +7102,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 1"
 				}
 			}
@@ -7005,7 +7111,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "1 0"
 				}
 			}
@@ -7014,7 +7120,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -7023,7 +7129,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -7036,7 +7142,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 1"
 				}
 			}
@@ -7045,7 +7151,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "1 0"
 				}
 			}
@@ -7054,7 +7160,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -7063,7 +7169,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "TanDark"
+					"color" "AntsHUDGray"
 					"offset" "0 0"
 				}
 			}
@@ -7274,32 +7380,32 @@ Scheme
 			}
 		}
 		"7" // Main font
-		{
-		
+		{	
 			"font" "resource/fonts/Neutra Display Titling.ttf"
 			"name" "Neutra Display Titling"
 		}
 		"8" // Other Main Font
-		{
-		
+		{	
 			"font" "resource/fonts/AvenirLTStd-Medium.otf"
 			"name" "AvenirLTStd-Medium"
 		}
-		"9" // Tournament HUD block
+		"9" // Time Numbers
 		{
-		
+			"font" "resource/fonts/AvenirLTStd-Heavy.otf"
+			"name" "AvenirLTStd-Heavy"
+		}
+		"10" // Tournament HUD block
+		{	
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"10" //Crosshairs
-		{
-		
+		"11" // Crosshairs
+		{		
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
-		"11"
-		
-		
+		"12" // Main Menu Icons		
+		{
 			"font" "resource/fonts/Entypo.otf"
 			"name"	"Entypo"
 		}

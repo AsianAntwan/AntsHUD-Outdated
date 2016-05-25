@@ -49,7 +49,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"TanDark"
+		"fgcolor"		"AntsHUDGray"
 	}
 	
 	"ActionText"
@@ -63,7 +63,7 @@
 		"ypos"			"9999"
 		"wide"			"100"
 		"tall"			"10"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"AntsHUDWhite"
 		"visible"		"1"
 	}
 	
@@ -78,7 +78,7 @@
 		"ypos"			"25"
 		"wide"			"100"
 		"tall"			"10"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"AntsHUDWhite"
 		"visible"		"0"
 	}
 	
@@ -107,6 +107,6 @@
 		"ypos"			"30"
 		"wide"			"20"
 		"tall"			"30"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 }

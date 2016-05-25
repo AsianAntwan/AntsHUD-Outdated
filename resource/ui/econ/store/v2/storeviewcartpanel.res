@@ -159,10 +159,10 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"55"
+		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
+		"fillcolor"		"BGHeader"
 		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
@@ -176,9 +176,9 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_bottom_gradient"
+		"fillcolor"		"BGFooter"
 		"tileImage"		"1"
-	}				
+	}			
 	"FooterLine"
 	{
 		"ControlName"	"ImagePanel"

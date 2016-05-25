@@ -13,7 +13,7 @@
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"100"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 	

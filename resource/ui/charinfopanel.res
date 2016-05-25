@@ -30,7 +30,7 @@
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 	}
-	
+
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,21 +42,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}
-	"BackgroundHeader2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundHeader2"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"15 15 15 175"
+		"fillcolor"		"BGHeader"
 		"tileImage"		"1"
 	}		
 	"BackgroundFooter"
@@ -65,29 +51,14 @@
 		"fieldName"		"BackgroundFooter"
 		"xpos"			"0"
 		"ypos"			"420"
-		"zpos"			"0"
-		"wide"			"f0"
-		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"loadout_header"
-		"tileImage"		"1"
-	}
-	"BackgroundFooter2"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BackgroundFooter2"
-		"xpos"			"0"
-		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 220"
+		"fillcolor"		"BGFooter"
 		"tileImage"		"1"
-	}
-				
+	}			
 	"FooterLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -101,7 +72,7 @@
 			"enabled"		"1"
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
+			"border"				"DeepSkyBorder"
 			"bgcolor_override"		"Base Color"
 		}		
 	
@@ -126,26 +97,28 @@
 			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"autoResize"	"0"
-			"PaintBackgroundType"	"2"
-			"border"				"NoBorder"
+			"autoResize"	"1"
+			"PaintBackgroundType"	"1"
+			"border"				"DeepSkyBorder"
 			"bgcolor_override"		"Base Color"
 		}				
 		
 		"tabskv"
 		{
-			"textinsetx"		"25"
+			"textinsetx"		"5"
+			"textinsety"		"-2"
 			"textAlignment"		"center"
-			"font"				"Avenir32"
+			"font"				"NeutraDisp32"
 			"ypos"				"50"
-			"selectedcolor"		"TanLight"
-			"unselectedcolor"	"TanDark"	
-			"paintbackground"	"1"
-			"defaultBgColor_override"	"25 25 25 255"
-			"unselectedBgColor_override"	"10 10 10 255"
-			"activeborder_override"	"CyanBorderTabs"
-			"depressedBgColor_override"		"10 10 10 255"
-			"normalborder_override" "CyanBorderTabsInactive"
+			"selectedcolor"		"AntsHUDWhite"
+			"unselectedcolor"	"AntsHUDGray"	
+			"defaultBgColor_override"	"0 0 0 0"
+			"selectedBgColor_override"	"0 0 0 0"
+			"activeBgColor_override"	"0 0 0 0"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"activeborder_override"	""
+			"normalborder_override" ""
 		}
 	}
 	
@@ -173,14 +146,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"depressedBgColor_override"	"19 19 19 255"
-		"armedBgColor_override"		"Base Color"
-		"depressedBgColor_override"	"19 19 19 255"
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanLight"
-		"border_default"			"ButtonHover"
-		"border_armed"				"ButtonHover"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDWhite"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	
 	"NotificationsPresentPanel"

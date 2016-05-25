@@ -66,7 +66,7 @@
 		"font"			"NeutraDisp20"
 		"labelText"		"Your Squadron"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	"titleShadow"
 	{
@@ -84,7 +84,7 @@
 		"font"			"NeutraDisp20"
 		"labelText"		"Your Squadron"
 		"textAlignment"	"center"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 	}
 		
 	"changeLabel"
@@ -103,7 +103,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#TF_Arena_F4_ChangeClass"
 		"textAlignment"	"center"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	"changeLabelShadow"
 	{

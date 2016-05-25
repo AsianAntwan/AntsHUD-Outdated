@@ -79,7 +79,7 @@
 			"enabled"		"1"
 			"wrap"			"0"
 			"proportionaltoparent"	"1"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"AntsHUDWhite"
 		}
 
 		"CompetitiveModeGroupBox"
@@ -131,15 +131,15 @@
 				"editable"			"0"
 				"maxchars"			"-1"
 				"NumericInputOnly"	"0"
-				"unicode"			"0"
+				"uniAvenir"			"0"
 				"default"			"0"
 		
-				"fgcolor_override"	"White"
+				"fgcolor_override"	"AntsHUDWhite"
 				"bgcolor_override"	"0 0 0 0"
-				"disabledFgColor_override" "White"
+				"disabledFgColor_override" "AntsHUDWhite"
 				"disabledBgColor_override" "0 0 0 0"
 				"selectionColor_override" "0 0 0 0"
-				"selectionTextColor_override" "White"
+				"selectionTextColor_override" "AntsHUDWhite"
 				"defaultSelectionBG2Color_override" "0 0 0 0"
 			}
 
@@ -212,7 +212,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"SearchActiveTitle"
-				"font"			"HudFontMediumBold"
+				"font"			"NeutraDisp28"
 				"labelText"		"#TF_Matchmaking_Searching"
 				"xpos"		"30"
 				"ypos"		"20"

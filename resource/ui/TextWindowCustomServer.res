@@ -51,7 +51,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Avenir24"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 
 	"TextMessage"
@@ -78,7 +78,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"northwest"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"HTMLMessage"
@@ -122,11 +122,11 @@
 		"font"			"Avenir24"
 		"paintbackground"	"0"
 		
-		"fgcolor"					"TanLight"
-		"defaultFgColor_override" 	"TanLight"
-		"armedFgColor_override"		"TanDark"
-		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanDark"
+		"fgcolor"					"AntsHUDWhite"
+		"defaultFgColor_override" 	"AntsHUDWhite"
+		"armedFgColor_override"		"AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGray"
+		"selectedFgColor_override" 	"AntsHUDGray"
 	}
 	
 	"MenuBG"

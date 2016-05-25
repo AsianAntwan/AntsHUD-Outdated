@@ -62,7 +62,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"19 19 19 255"
+			"fillcolor" 	"ButtonBG"
 			}
 			
 			"PanelTop"
@@ -78,7 +78,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"19 19 19 255"
+			"fillcolor" 	"ButtonBG"
 			}
 			
 			"PanelBottom"
@@ -94,7 +94,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"19 19 19 255"
+			"fillcolor" 	"ButtonBG"
 			}
 			
 			"PanelRight"
@@ -110,7 +110,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"19 19 19 255"
+			"fillcolor" 	"ButtonBG"
 			}
 		
 			"playername"
@@ -128,7 +128,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"White"
+				"fgcolor"		"AntsHUDWhite"
 			
 			}
 			
@@ -256,7 +256,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"TransparentBlack"
+				"fgcolor"		"ShadowBlack"
 				
 			}
 			"healthcover"
@@ -274,7 +274,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"19 19 19 255"
+				"fgcolor"		"ButtonBG"
 				
 			}
 			
@@ -310,7 +310,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"TransparentBlack"
+				"fgcolor"		"ShadowBlack"
 			}
 			
 			"specindex"
@@ -328,7 +328,7 @@
 				"visible"		"1"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"White"
+				//"fgcolor"		"AntsHUDWhite"
 			}
 			
 		}

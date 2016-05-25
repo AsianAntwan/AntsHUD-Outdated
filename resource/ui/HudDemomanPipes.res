@@ -128,7 +128,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"NeutraDisp26"
-			"fgcolor"		"TransparentBlack"
+			"fgcolor"		"ShadowBlack"
 		}		
 	}
 	

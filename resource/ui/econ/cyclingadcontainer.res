@@ -28,7 +28,7 @@
 		"tabPosition"		"0"
 		"labelText"			"<"
 		"bgcolor_override"	"0 0 0 220"
-		"fgcolor"		"White"
+		"fgcolor"		"AntsHUDWhite"
 		"font"			"DefaultVerySmall"
 		"textAlignment"	"center"
 
@@ -57,7 +57,7 @@
 		"tabPosition"		"0"
 		"labelText"			">"
 		"bgcolor_override"	"0 0 0 220"
-		"fgcolor"		"White"
+		"fgcolor"		"AntsHUDWhite"
 		"font"			"DefaultVerySmall"
 		"textAlignment"	"center"
 

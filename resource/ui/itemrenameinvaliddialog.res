@@ -1,6 +1,6 @@
 "Resource/UI/ItemRenameInvalidDialog.res"
 {
-	// Need to be named ItemRenameConfirmationDialog, because it uses the same base confirmation dialog in code
+	// Need to be named ItemRenameConfirmationDialog, because it uses the same base confirmation dialog in Avenir
 	"ItemRenameConfirmationDialog"
 	{
 		"fieldName"				"ItemRenameConfirmationDialog"
@@ -13,7 +13,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"CyanBorder"
+		"border"				"DeepSkyBorder"
 		"bgcolor_override"		"25 25 25 255"
 	}
 
@@ -196,7 +196,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"AntsHUDWhite"
 	}
 
 	"WarningLabel"

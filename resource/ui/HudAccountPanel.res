@@ -110,6 +110,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Avenir24"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 	}
 }

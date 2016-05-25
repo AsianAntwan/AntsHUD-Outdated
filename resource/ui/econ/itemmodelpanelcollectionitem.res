@@ -109,7 +109,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
-			"fgcolor"		"White"
+			"fgcolor"		"AntsHUDWhite"
 			"centerwrap"	"1"
 		}
 		
@@ -149,7 +149,7 @@
 			"enabled"		"1"
 			"labelText"		"%collectionname%"
 			"textAlignment"	"west"
-			"fgcolor"		"White"
+			"fgcolor"		"AntsHUDWhite"
 			"centerwrap"	"0"
 		}
 	

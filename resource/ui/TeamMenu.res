@@ -26,7 +26,7 @@
 		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlueTeamSolid"
+		"fillcolor"		"AntsHUDBlue"
 	}
 	"RedTeamBG"
 	{
@@ -39,7 +39,7 @@
 		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeamSolid"
+		"fillcolor"		"AntsHUDRed"
 	}
 	"AutojoinBackground"
 	{
@@ -115,7 +115,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"NeutraDisp28"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"teambutton0"
@@ -139,10 +139,10 @@
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
 		"font"			"NeutraDisp56"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 
 	"teambutton1"
@@ -166,10 +166,10 @@
 		"command"		"jointeam red"
 		"team"				"4"		// team red
 		"font"			"NeutraDisp56"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 
 	"teambutton2"
@@ -193,10 +193,10 @@
 		"paintborder"	"0"
 		"command"		"jointeam auto"
 		"font"			"NeutraDisp32"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 	
 	"teambutton3"
@@ -220,10 +220,10 @@
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
 		"font"			"NeutraDisp32"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 	
 	"CancelButton" [$WIN32] 
@@ -250,10 +250,10 @@
 		"paintbackground""0"
 		"command"		"cancelmenu"
 		"font"			"NeutraDisp28"
-		"defaultFgColor_override" 	"TanLessLight"
-		"armedFgColor_override"		"TanLight"
-		"depressedFgColor_override" "TanLessLight"
-		"selectedFgColor_override" 	"TanLight"
+		"defaultFgColor_override" 	"AntsHUDLessWhite"
+		"armedFgColor_override"		"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDLessWhite"
+		"selectedFgColor_override" 	"AntsHUDWhite"
 	}
 	
 	"TeamMenuSelect"
@@ -275,7 +275,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp46"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"TeamMenuAuto"
@@ -320,7 +320,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"white"
+		"fgcolor"		"AntsHUDWhite"
 	}
 
 	"MenuBG"
@@ -379,7 +379,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"NeutraDisp72"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}
 	
 	"RedCount"
@@ -400,7 +400,7 @@
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"NeutraDisp72"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 
 	"bluedoor"
@@ -492,7 +492,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		"centerwrap"	"1"
 	}
 	
@@ -514,7 +514,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp16"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"centerwrap"	"1"
 	}
 	
@@ -536,7 +536,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp12"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		"centerwrap"	"1"
 	}
 	
@@ -558,7 +558,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"NeutraDisp12"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"centerwrap"	"1"
 	}
 

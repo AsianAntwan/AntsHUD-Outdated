@@ -86,7 +86,7 @@
 		"ypos"			"c25"	[$WIN32]
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 	
@@ -110,7 +110,7 @@
 		"ypos"			"c25"	[$WIN32]
 		"wide"			"150"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}	
 
@@ -124,7 +124,7 @@
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"500"
 		"tall"			"500"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 		"alpha"			"0"
 	}
@@ -144,7 +144,7 @@
 		"wide"			"60"
 		"wide_minmode"	"50"
 		"tall"			"8"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 
@@ -1022,7 +1022,7 @@
 		"ypos"			"c137"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}	
 

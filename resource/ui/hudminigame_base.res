@@ -11,7 +11,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDBlueTeamSolid"
+		"fillcolor"		"AntsHUDBlue"
 		"scaleImage"	"1"	
 		
 	}
@@ -27,7 +27,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"HUDRedTeamSolid"
+		"fillcolor"		"AntsHUDRed"
 		"scaleImage"	"1"	
 	}
 		
@@ -60,7 +60,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%bluescore%"
 		"font"			"Avenir40"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 		
 	"BlueScoreShadow"
@@ -94,7 +94,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%redscore%"
 		"font"			"Avenir40"
-		"fgcolor"		"TanLight"			
+		"fgcolor"		"AntsHUDWhite"			
 	}	
 		
 	"RedScoreShadow"
@@ -130,7 +130,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"Avenir14"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 	}	
 			
 	"PlayingToBG"

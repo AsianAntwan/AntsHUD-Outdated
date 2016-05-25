@@ -204,6 +204,6 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"fgcolor"		"AntsHUDWhite"
 	}		
 }

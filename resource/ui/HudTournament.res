@@ -89,7 +89,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"White"
+				//"fgcolor"		"AntsHUDWhite"
 					
 				if_mvm
 				{
@@ -296,7 +296,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"White"
+				//"fgcolor"		"AntsHUDWhite"
 			}
 			
 			"chargeamount"
@@ -337,7 +337,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"White"
+				//"fgcolor"		"AntsHUDWhite"
 			}
 			
 			if_mvm
@@ -695,7 +695,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
 		"font"			"Avenir14"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		"xpos"			"c-125"
 		"ypos"			"16"
 		"zpos"			"1"
@@ -736,7 +736,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabelShadow"
 		"font"			"Avenir14"
-		"fgcolor"		"TransparentBlack"
+		"fgcolor"		"ShadowBlack"
 		"xpos"			"c-125"
 		"ypos"			"16"
 		"zpos"			"0"

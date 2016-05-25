@@ -73,7 +73,7 @@
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
-		"bgcolor_override"	"19 19 19 255"
+		"bgcolor_override"	"25 25 25 255"
 		
 		"TipLabel"
 		{
@@ -91,7 +91,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"White"
+			"fgcolor_override"	"AntsHUDWhite"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

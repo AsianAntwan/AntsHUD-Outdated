@@ -172,9 +172,9 @@
 		"tabPosition"		"1"
 		"textHidden"		"0"
 		"editable"		"1"
-		"unicode"		"1"
-		"fgcolor_override"	"TanLight"
-		"bgcolor_override"	"19 19 19 255"
+		"uniAvenir"		"1"
+		"fgcolor_override"	"AntsHUDWhite"
+		"bgcolor_override"	"25 25 25 255"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmall"
 	}
@@ -198,24 +198,26 @@
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
-		"unicode"			"0"
+		"uniAvenir"			"0"
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "White"
+		"disabledFgColor_override" "AntsHUDWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "White"
+		"selectionTextColor_override" "AntsHUDWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"TanLight"
-			"depressedBgColor_override"	"19 19 19 255"
-			"armedFgColor_override"	"0 191 255 255 255"
-			"armedBgColor_override"	"19 19 19 255"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override"		"AntsHUDWhite"
+			"depressedFgColor_override"	"AntsHUDWhite"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -239,24 +241,26 @@
 		"editable"			"0"
 		"maxchars"			"-1"
 		"NumericInputOnly"	"0"
-		"unicode"			"0"
+		"uniAvenir"			"0"
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"White"
+		"fgcolor_override"	"AntsHUDWhite"
 		"bgcolor_override"	"0 0 0 0"
-		"disabledFgColor_override" "White"
+		"disabledFgColor_override" "AntsHUDWhite"
 		"disabledBgColor_override" "0 0 0 0"
 		"selectionColor_override" "0 0 0 0"
-		"selectionTextColor_override" "White"
+		"selectionTextColor_override" "AntsHUDWhite"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"TanLight"
-			"depressedBgColor_override"	"19 19 19 255"
-			"armedFgColor_override"	"0 191 255 255 255"
-			"armedBgColor_override"	"19 19 19 255"
+			"defaultBgColor_override"	"ButtonBG"
+			"armedBgColor_override"		"Button Color"
+			"depressedBgColor_override"	"Button Color"
+			"defaultFgColor_override"	"AntsHUDWhite"
+			"armedFgColor_override"		"AntsHUDWhite"
+			"depressedFgColor_override"	"AntsHUDWhite"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -366,11 +370,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"19 19 19 255"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -419,11 +425,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"19 19 19 255"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -559,10 +567,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"TanDark"
-			"defaultFgColor_override" "TanDark"
-			"armedFgColor_override" "TanDark"
-			"depressedFgColor_override" "TanDark"
+			"fgcolor"			"AntsHUDGray"
+			"defaultFgColor_override" "AntsHUDGray"
+			"armedFgColor_override" "AntsHUDGray"
+			"depressedFgColor_override" "AntsHUDGray"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -775,11 +783,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"depressedBgColor_override"	"19 19 19 255"
+		"defaultBgColor_override"	"ButtonBG"
+		"armedBgColor_override"		"Button Color"
+		"depressedBgColor_override"	"Button Color"
 		
-		"defaultFgColor_override"	"TanLight"
-		"armedFgColor_override" 	"TanLight"
-		"depressedFgColor_override" "TanDark"
+		"defaultFgColor_override"	"AntsHUDWhite"
+		"armedFgColor_override" 	"AntsHUDWhite"
+		"depressedFgColor_override" "AntsHUDGray"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -1021,7 +1031,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1178,7 +1188,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1243,7 +1253,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1400,7 +1410,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1447,7 +1457,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1622,7 +1632,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1669,7 +1679,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1844,7 +1854,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -1891,7 +1901,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2066,7 +2076,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2113,7 +2123,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2288,7 +2298,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2335,7 +2345,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2510,7 +2520,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2557,7 +2567,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{
@@ -2731,7 +2741,7 @@
 			"armedFgColor_override" "200 80 60 255"
 			"depressedFgColor_override" "46 43 42 255"
 			
-			"image_drawcolor"	"White"
+			"image_drawcolor"	"AntsHUDWhite"
 			"image_armedcolor"	"255 255 255 255"
 			"SubImage"
 			{

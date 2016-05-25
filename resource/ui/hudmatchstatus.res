@@ -63,55 +63,55 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"Avenir24"
-		"xpos"			"230"
-		"ypos"			"r55"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.1"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
-		"autoResize"		"0"
+		"zpos"			"5"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
 		"proportionaltoparent"	"1"
+		"fgcolor"		"TanLight"
 
 		if_readymode
 		{
-			"xpos"			"c-20"
+			"xpos"			"300"
 			"ypos"			"130"
-			"tall"			"20"
 		}
-	
 	}
 	
 	"CountdownLabelShadow"
 	{	
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"Avenir24"
-		"xpos"			"231"
-		"ypos"			"r54"
+		"xpos"			"cs-0.48"
+		"ypos"			"cs-0.08"
 		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"1"
-		"autoResize"		"0"
+		"zpos"			"4"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
-		"fgcolor"		"Black"
-		
+		"labelText"		"%countdown%"
+		"textAlignment"	"center"
+		"fgcolor"		"ShadowBlack"
+		"proportionaltoparent"	"1"
+
+	
 		if_readymode
 		{
-			"xpos"			"c-18"
+			"xpos"			"300"
 			"ypos"			"130"
-			"tall"			"22"
 		}
-	}
+	}	
 
 	"FrontParticlePanel"
 	{
@@ -228,7 +228,7 @@
 		"xpos"				"c-55"
 		"ypos"				"0"	[$WIN32]
 		"zpos"				"2"
-		"wide"				"110"
+		"wide"				"300"
 		"tall"				"150"
 		"visible"			"0"
 		"enabled"			"1"
@@ -257,31 +257,26 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"HudFontMediumSmall"
-			"font_minmode"	"HudFontSmall"
-			"font_lodef"	"HudFontMedium"
-			"fgcolor"		"TanLight"
-			"xpos"			"28"
-			"ypos"			"-4"
+			"font"			"Time20"
+			"fgcolor"		"AntsHUDWhite"
+			"xpos"			"25"
+			"ypos"			"1"
 			"zpos"			"3"
-			"wide"			"45"
-			"tall"			"31"
+			"wide"			"50"
+			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"textAlignment"		"center"
+			"textAlignment"	"center"
 			"labelText"		"0:00"
 
 			if_comp
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"cs-0.5"
-				"ypos"			"12"
-				"ypos_minmode"	"12"
-				"tall"			"12"
+				"xpos"			"30"
+				"ypos"			"9"
+				"tall"			"15"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			}
 		}	
 	}
@@ -485,7 +480,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				//"fgcolor"		"White"
+				//"fgcolor"		"AntsHUDWhite"
 			}
 			
 			"chargeamount"
@@ -521,7 +516,7 @@
 				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"White"
+				//"fgcolor"		"AntsHUDWhite"
 			}
 			"DeathPanel"
 			{

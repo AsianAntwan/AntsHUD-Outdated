@@ -9,7 +9,7 @@
 		"ypos"			"r41"
 		"wide"			"100"
 		"tall"			"60"
-		"MeterFG"		"White"
+		"MeterFG"		"AntsHUDWhite"
 		"MeterBG"		"Gray"
 	}
 	
@@ -71,7 +71,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CanteenLabel"
 		"font"			"Avenir14"
-		"fgcolor"		"TanLight"
+		"fgcolor"		"AntsHUDWhite"
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"3"

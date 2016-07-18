@@ -93,7 +93,7 @@
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"fgcolor_override"			"Base Color"
+			"fgcolor_override"			"AntsHUDDeepSkyBlue"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -117,7 +117,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "0 191 255 255"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	"ClassLabel"
 	{
@@ -502,7 +502,7 @@
 		
 		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "250 68 17 255"
-		"armedFgColor_override" "Base Color"
+		"armedFgColor_override" "AntsHUDDeepSkyBlue"
 		"depressedFgColor_override" "250 68 17 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -541,7 +541,7 @@
 		
 		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" "0 98 255 255"
-		"armedFgColor_override" "Base Color"
+		"armedFgColor_override" "AntsHUDDeepSkyBlue"
 		"depressedFgColor_override" "0 98 255 255"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
@@ -579,7 +579,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"AntsHUDDeepSkyBlue"
 		
 		"SubImage"
 		{
@@ -620,7 +620,7 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
 		"image_drawcolor"	"AntsHUDWhite"
-		"image_armedcolor"	"Button Color"
+		"image_armedcolor"	"AntsHUDDeepSkyBlue"
 
 		"SubImage"
 		{

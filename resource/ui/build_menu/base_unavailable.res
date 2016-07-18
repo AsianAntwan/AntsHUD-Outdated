@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"AntsHUDGray"
+		"iconColor"		"AntsHUDGrey"
 	}
 	
 	"CostLabel"
@@ -78,7 +78,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"HudFontSmall"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 		"xpos"			"23"
 		"ypos"			"17"
 		"zpos"			"1"
@@ -97,7 +97,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 		"xpos"			"33"
 		"ypos"			"17"
 		"zpos"			"1"

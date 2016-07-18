@@ -62,7 +62,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"ButtonBG"
+			"fillcolor" 	"ButtonBGDark"
 			}
 			
 			"PanelTop"
@@ -78,7 +78,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"ButtonBG"
+			"fillcolor" 	"ButtonBGDark"
 			}
 			
 			"PanelBottom"
@@ -94,7 +94,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"ButtonBG"
+			"fillcolor" 	"ButtonBGDark"
 			}
 			
 			"PanelRight"
@@ -110,7 +110,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"ButtonBG"
+			"fillcolor" 	"ButtonBGDark"
 			}
 		
 			"playername"
@@ -238,7 +238,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"0 191 255 255"
+				"fgcolor"		"AntsHUDDeepSkyBlue"
 				
 			}
 			"respawntimeBG"
@@ -274,7 +274,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
-				"fgcolor"		"ButtonBG"
+				"fgcolor"		"ButtonBGDark"
 				
 			}
 			
@@ -293,7 +293,7 @@
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"east"
-				"fgcolor"		"0 191 255 255"
+				"fgcolor"		"AntsHUDDeepSkyBlue"
 			}
 			"chargeamountBG"
 			{

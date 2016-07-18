@@ -40,7 +40,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
-			if_competitive
+			if_matchetitive
 			{
 				"visible"		"1"
 			}
@@ -100,7 +100,7 @@
 					"font"				"Avenir8"
 				}
 				
-				if_competitive
+				if_matchetitive
 				{
 					"xpos"				"1"
 					"ypos"				"26"
@@ -142,7 +142,7 @@
 					"image"			"../vgui/hud_connecting"
 				}
 				
-				if_competitive
+				if_matchetitive
 				{
 					"xpos"			"7"
 					"ypos"			"1"
@@ -179,7 +179,7 @@
 					"visible"		"1"
 				}
 				
-				if_competitive
+				if_matchetitive
 				{
 					"visible"		"1"
 				}
@@ -235,7 +235,7 @@
 					"zpos"			"-2"
 				}
 
-				if_competitive
+				if_matchetitive
 				{
 					"visible"		"1"
 					"zpos"			"-2"					
@@ -270,7 +270,7 @@
 					"visible"		"1"
 				}
 				
-				if_competitive
+				if_matchetitive
 				{
 					"visible"		"1"
 				}
@@ -346,7 +346,7 @@
 				"tall"		"35"
 			}
 			
-			if_competitive
+			if_matchetitive
 			{
 				"wide"		"40"
 				"tall"		"35"
@@ -370,7 +370,7 @@
 			"team2_player_delta_x"			"42"
 		}
 
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"							"0"
 			"ypos"							"0"
@@ -423,7 +423,7 @@
 			"visible"		"0"
 		}
 
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"195"
 			"ypos"			"5"
@@ -458,7 +458,7 @@
 		{
 			"visible"		"0"
 		}
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -497,7 +497,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -533,7 +533,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"207"
 			"visible"		"0"
@@ -568,7 +568,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"251"
 			"visible"		"0"
@@ -607,7 +607,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"320"
 			"visible"		"0"
@@ -642,7 +642,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"370"
 			"visible"		"0"
@@ -677,7 +677,7 @@
 			"visible"		"0"
 		}
 
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"325"
 			"visible"		"0"
@@ -721,7 +721,7 @@
 			"ypos"			"16"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"wide"			"f0"
 			"xpos"			"0"
@@ -762,7 +762,7 @@
 			"ypos"			"16"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"visible"		"1"
 			"enabled"		"1"
@@ -799,7 +799,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"visible"		"0"
 		}
@@ -834,7 +834,7 @@
 			"xpos"			"c-125"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"c-125"
 			"ypos"			"32"
@@ -876,7 +876,7 @@
 			"wide"			"f0"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"0"
 			"wide"			"f0"
@@ -911,7 +911,7 @@
 			"xpos"			"c-125"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"195"
 			"enabled"		"0"
@@ -949,7 +949,7 @@
 			"xpos"		"c-20"
 		}
 
-		if_competitive
+		if_matchetitive
 		{
 			"visible"	"0"
 			"enabled" 	"0"
@@ -993,7 +993,7 @@
 		}
 	
 	
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"c-20"
 			"ypos"			"130"
@@ -1036,7 +1036,7 @@
 			"xpos"		"c-20"
 		}
 		
-		if_competitive
+		if_matchetitive
 		{
 			"xpos"			"c-19"
 			"ypos"			"130"

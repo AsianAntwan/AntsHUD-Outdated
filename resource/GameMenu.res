@@ -1,88 +1,60 @@
-"GameMenu" [$WIN32]
+"GameMenu"
 {
- 	"VersionNumber"
- 	{
-		"label" "AntsHUD v 2016.4.25" 
- 		"subimage" ""
- 		"OnlyAtMenu" "0"
- 	}
-	"QuickplayButton"
+	"ResumeGameButton"
 	{
-		"label" "Play" 
-		"command" "quickplay"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "Play" 
-		"command" "quickplay"
-		"subimage" ""
+		"label"	"Resume"
+		"command" "ResumeGame"
 		"OnlyInGame" "1"
+		"subimage" "icon_resume"
+	}
+	"CasualButton"
+	{
+		"label"	"Casual"
+		"command" "play_casual"
+		"OnlyAtMenu" "1"
+		"subimage" ""
 	}
 	"CompetitiveButton"
 	{
-		"label" "Matchmaking" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	"PlayPVEButton"
-	{
-		"label" "MvM" 
-		"command" "playpve"
-		"subimage" ""
+		"label"	"Competitive"
+		"command" "play_competitive"
 		"OnlyAtMenu" "1"
+		"subimage" ""
+	}
+	"MvMButton"
+	{
+		"label"	"MvM"
+		"command" "play_mvm"
+		"OnlyAtMenu" "1"
+		"subimage" ""
 	}
 	"ServerBrowserButton"
 	{
-		"label" "Servers" 
+		"label"	"Server Browser"
 		"command" "OpenServerBrowser"
+		"OnlyAtMenu" "1"
 		"subimage" ""
-		"OnlyAtMenu" "0"
-	} 
-	// used to reload the hud, not actually change servers
-	"ChangeServerButton"
+	}
+	"ServerBrowserButton2"
 	{
-		"label" "Report Player" 
-		"command"	"OpenReportPlayerDialog"
-		"subimage" "glyph_server_browser"
+		"label"	"Server Browser"
+		"command" "OpenServerBrowser"
 		"OnlyInGame" "1"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" ""
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" ""
 	}
 	"TrainingButton"
 	{
-		"label" "Training"
-		"command" "offlinepractice"
+		"label"	"Training"
+		"command" "play_training"
+		"OnlyAtMenu" "1"
 		"subimage" ""
-		"OnlyAtMenu" "1"
 	}
-	"MOTD_ShowButtonPanel"
+	"ResumeGameButton"
 	{
-		"label" "E"
-		"command" "motd_show"
-		"subimage" ""
-		"OnlyAtMenu" "1"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "#GameUI_GameMenu_CreateServer"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"label"	"Resume"
+		"command" "ResumeGame"
+		"OnlyInGame" "1"
+		"subimage" "icon_resume"
 	}
 	"GeneralStoreButton"
 	{
@@ -96,16 +68,63 @@
 		"command" "engine open_charinfo"
 		"subimage" ""
 	}
+	"ReplayBrowserButton"
+	{
+		"label" "Replays"
+		"command" "engine replay_reloadbrowser"
+		"subimage" ""
+	}
+	"SteamWorkshopButton"
+	{
+		"label" "Workshop"
+		"command" "engine OpenSteamWorkshopDialog"
+		"subimage" ""
+	}
+	"DisconnectButton"
+	{
+		"label"	"Disconnect"
+		"command" "engine disconnect"
+		"OnlyInGame" "1"
+		"subimage" ""
+	}
+	"QuitButton"
+	{
+		"label"	"Quit"
+		"command" "engine replay_confirmquit"
+		"OnlyAtMenu" "1"
+		"subimage" ""
+	}
+	
+	//Other Buttons
+
+ 	"VersionNumber"
+ 	{
+		"label" "vBeta" 
+ 		"subimage" ""
+ 		"OnlyAtMenu" "0"
+ 	}
+	"MOTD_ShowButtonPanel"
+	{
+		"label" "%"
+		"command" "motd_show"
+		"subimage" ""
+	}
+	"HUDReloadButton"
+	{
+		"label" "d"
+		"command" "engine hud_reloadscheme"
+		"subimage" ""
+	}
+	"CreateServerButton"
+	{
+		"label" "#GameUI_GameMenu_CreateServer"
+		"command" "OpenCreateMultiplayerGameDialog"
+		"OnlyAtMenu" "1"
+		"tooltip" "#GameUI_GameMenu_CreateServer"
+	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
-	{
-		"label"			"Resume"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
 	"CallVoteButton"
 	{
 		"label"			""
@@ -130,8 +149,6 @@
 		"subimage" "icon_whistle"
 		"tooltip" "#MMenu_RequestCoach"
 	}
-	
-	//not in use, report players is instead used by "ChangeServers" button
 	"ReportPlayerButton"
 	{
 		"label"			""

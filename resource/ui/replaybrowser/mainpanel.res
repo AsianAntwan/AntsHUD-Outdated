@@ -24,7 +24,7 @@
 		"titletextinsetY"	"0"
 		"titlebarfgcolor_override"				"200 187 161 255"
 		"titlebardisabledfgcolor_override"		"200 187 161 255"
-		"titlebarbgcolor_override"				"Base Color"
+		"titlebarbgcolor_override"				"AntsHUDDeepSkyBlue"
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"56"
 	}
@@ -39,7 +39,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BGHeader"
+		"fillcolor"		"BGAnyDarker"
 		"tileImage"		"1"
 	}	
 	"BackgroundFooter"
@@ -53,7 +53,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BGFooter"
+		"fillcolor"		"BGAnyDarker"
 		"tileImage"		"1"
 	}			
 	"FooterLine"
@@ -71,7 +71,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"DeepSkyBorder"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 	}				
 	"Sheet"
 	{
@@ -97,7 +97,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"1"
 			"border"				"DeepSkyBorder"
-			"bgcolor_override"		"Base Color"
+			"bgcolor_override"		"AntsHUDDeepSkyBlue"
 		}				
 		"tabskv"
 		{
@@ -107,7 +107,7 @@
 			"font"				"NeutraDisp32"
 			"ypos"				"50"
 			"selectedcolor"		"AntsHUDWhite"
-			"unselectedcolor"	"AntsHUDGray"	
+			"unselectedcolor"	"AntsHUDGrey"	
 			"defaultBgColor_override"	"0 0 0 0"
 			"selectedBgColor_override"	"0 0 0 0"
 			"activeBgColor_override"	"0 0 0 0"
@@ -141,9 +141,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"

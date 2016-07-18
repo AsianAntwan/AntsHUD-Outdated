@@ -87,7 +87,7 @@
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}
 	
 	HudMedicCharge
@@ -111,7 +111,7 @@
 		"wide"			"150"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}	
 
 	HudBowCharge
@@ -125,7 +125,7 @@
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 		"alpha"			"0"
 	}
 
@@ -145,7 +145,7 @@
 		"wide_minmode"	"50"
 		"tall"			"8"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}
 
 	HudBossHealth
@@ -159,7 +159,7 @@
 		"wide"			"200"
 		"tall"			"50"
 		"MeterFG"		"Red"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}
 
 	HudWeaponSelection
@@ -1023,7 +1023,7 @@
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}	
 
 	HudTeamGoal

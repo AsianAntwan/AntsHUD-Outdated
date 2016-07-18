@@ -10,7 +10,7 @@
 		"wide"			"100"
 		"tall"			"60"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}
 	
 	"PowerupBG"

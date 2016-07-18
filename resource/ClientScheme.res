@@ -4,7 +4,43 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{	
-	
+		//-----------------------------------------------------
+		// AntsHUD Colors
+		//-----------------------------------------------------
+
+		"AntsHUDDeepSkyBlue"		"0 191 255 255"
+
+		"AntsHUDBlue"				"70 130 180 255"
+		"AntsHUDDarkBlue"			"45 105 155 255"
+		"AntsHUDRed"				"190 50 50 255"
+		"AntsHUDDarkRed"			"165 25 25 255"
+		
+		"AntsHUDWhite"				"255 255 255 255"
+		"AntsHUDLessWhite"			"200 200 200 255"
+		
+		"AntsHUDGrey"				"125 125 125 255"
+		"AntsHUDDarkGrey"			"75 75 75 255"
+
+		"TransparentPanelBG"		"25 25 25 128"
+		"ButtonBGLight"				"50 50 50 255"
+		"ButtonBGDark"				"25 25 25 255"
+
+		"BGAnyLight"				"50 50 50 255"
+		"BGAnyDark"					"30 30 30 255"
+		"BGAnyDarker"				"15 15 15 255"
+		
+		"StatBar1"					"0 191 255 255"
+		"StatBar2"					"0 181 255 255"
+		"StatBar3"					"0 171 255 255"
+		"StatBar4"					"0 161 255 255"
+		"StatBar5"					"0 151 255 255"
+		"StatBar6"					"0 141 255 255"
+		"StatBar7"					"0 131 255 255"
+		"StatBar8"					"0 121 255 255"
+		"StatBar9"					"0 111 255 255"
+
+		"ItemPanelBG"				"75 75 75 255"
+
 		//-----------------------------------------------------
 		// Game UI Colors
 		//-----------------------------------------------------
@@ -30,42 +66,6 @@ Scheme
 		"Flashing Uber Color1"		"0 191 255 255"
 		"Flashing Uber Color2"		"0 164 255 255"
 		"Ubercharge Amount"			"255 255 255 255"
-
-		//-----------------------------------------------------
-		// AntsHUD Colors
-		//-----------------------------------------------------
-
-		"TransparentPanelBG"		"25 25 25 128"
-		"Base Color"				"0 191 255 255"
-		"Button Color"				"0 191 255 255"
-		"ButtonBG"					"30 30 30 255"
-		
-		"Inactive Tab"				"0 191 255 255"
-		"BGFooter"					"20 20 20 255"
-		"BGHeader"					"20 20 20 255"
-		
-		"StatBar1"					"0 191 255 255"
-		"StatBar2"					"0 181 255 255"
-		"StatBar3"					"0 171 255 255"
-		"StatBar4"					"0 161 255 255"
-		"StatBar5"					"0 151 255 255"
-		"StatBar6"					"0 141 255 255"
-		"StatBar7"					"0 131 255 255"
-		"StatBar8"					"0 121 255 255"
-		"StatBar9"					"0 111 255 255"
-
-		"ItemPanelBG"				"50 50 50 255"
-		
-		"AntsHUDBlue"				"70 130 180 255"
-		"AntsHUDDarkBlue"			"45 105 155 255"
-		"AntsHUDRed"				"190 50 50 255"
-		"AntsHUDDarkRed"			"165 25 25 255"
-		
-		"AntsHUDWhite"				"255 255 255 255"
-		"AntsHUDLessWhite"			"200 200 200 255"
-		
-		"AntsHUDGray"				"125 125 125 255"
-		"AntsHUDDarkGray"			"75 75 75 255"
 		
 		//-----------------------------------------------------
 		// HUD Colors
@@ -113,7 +113,7 @@ Scheme
 		
 		"CreditsGreen"				"94 150 49 255"
 		
-		"Gray"						"178 178 178 255"
+		"Grey"						"178 178 178 255"
 
 		"Blank"						"0 0 0 0"
 		"ForTesting"				"255 0 0 32"
@@ -263,39 +263,39 @@ Scheme
 		ReplayBrowser.CollectionTitle.FgColor				"LightRed"
 		ReplayBrowser.Warning.FgColor						"AntsHUDWhite"
 		ReplayBrowser.ScrollBar.SliderButton.FgColor		"TransparentYellow"
-		ReplayBrowser.Search.BgColor						"AntsHUDGray"
+		ReplayBrowser.Search.BgColor						"AntsHUDGrey"
 		ReplayBrowser.Search.FgColor						"AntsHUDWhite"
 		
-		Replay.RenderDialog.BgColor							"ButtonBG"
+		Replay.RenderDialog.BgColor							"ButtonBGDark"
 		
 		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"ButtonBG"
-		Econ.Button.FgColor									"AntsHUDGray"
-		Econ.Button.ArmedBgColor							"Button Color"
+		Econ.Button.BgColor									"ButtonBGDark"
+		Econ.Button.FgColor									"AntsHUDGrey"
+		Econ.Button.ArmedBgColor							"0 191 255 255"
 		Econ.Button.ArmedFgColor							"AntsHUDWhite"
-		Econ.Button.DepressedBgColor						"ButtonBG"
-		Econ.Button.DepressedFgColor						"AntsHUDGray"
+		Econ.Button.DepressedBgColor						"ButtonBGDark"
+		Econ.Button.DepressedFgColor						"AntsHUDGrey"
 		
 		Econ.Button.PresetDefaultColorFg					"0 191 255 255"
 		Econ.Button.PresetArmedColorFg						"0 191 255 255"
 		Econ.Button.PresetDepressedColorFg					"0 191 255 255"
 		
-		Econ.Button.PresetDefaultColorBg					"ButtonBG"
-		Econ.Button.PresetArmedColorBg						"Button Color"
-		Econ.Button.PresetDepressedColorBg					"ButtonBG"
+		Econ.Button.PresetDefaultColorBg					"ButtonBGDark"
+		Econ.Button.PresetArmedColorBg						"0 191 255 255"
+		Econ.Button.PresetDepressedColorBg					"ButtonBGDark"
 		
 		Border.Bright					"NoBorder"		// the lit side of a control
 		Border.Dark						"NoBorder"		// the dark/unlit side of a control
 		Border.Selection				"NoBorder"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"AntsHUDWhite"
-		Button.BgColor					"ButtonBG"
+		Button.BgColor					"ButtonBGDark"
 		Button.ArmedTextColor			"AntsHUDWhite"
-		Button.ArmedBgColor				"Button Color"
+		Button.ArmedBgColor				"0 191 255 255"
 		Button.SelectedTextColor		"AntsHUDWhite"
-		Button.SelectedBgColor			"Button Color"
+		Button.SelectedBgColor			"0 191 255 255"
 		Button.DepressedTextColor		"AntsHUDWhite"
-		Button.DepressedBgColor			"Button Color"
+		Button.DepressedBgColor			"0 191 255 255"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -327,15 +327,15 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.TextColor			"Base Color"
+		FrameTitleBar.TextColor			"0 191 255 255"
 		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"Base Color"
-		FrameTitleBar.DisabledBgColor	"Base Color"
+		FrameTitleBar.DisabledTextColor	"0 191 255 255"
+		FrameTitleBar.DisabledBgColor	"0 191 255 255"
 
-		GraphPanel.FgColor				"Base Color"
+		GraphPanel.FgColor				"0 191 255 255"
 		GraphPanel.BgColor				"TransparentBlack"
 
-		Label.TextDullColor				"AntsHUDGray"
+		Label.TextDullColor				"AntsHUDGrey"
 		Label.TextColor					"AntsHUDWhite"
 		Label.TextBrightColor			"AntsHUDWhite"
 		Label.SelectedTextColor			"AntsHUDWhite"
@@ -343,22 +343,22 @@ Scheme
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
 
-		ListPanel.TextColor					"Base Color"
+		ListPanel.TextColor					"0 191 255 255"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
 		ListPanel.SelectedBgColor			"Red"
 		ListPanel.SelectedOutOfFocusBgColor	"Red"
-		ListPanel.EmptyListInfoTextColor	"Base Color"
+		ListPanel.EmptyListInfoTextColor	"0 191 255 255"
 
 		Menu.TextColor					"AntsHUDWhite"
 		Menu.BgColor					"TransparentBlack"
-		Menu.ArmedTextColor				"AntsHUDGray"
+		Menu.ArmedTextColor				"AntsHUDGrey"
 		Menu.ArmedBgColor				"AntsHUDWhite"
 		Menu.TextInset					"6"
 
-		Chat.TypingText					"Base Color"
+		Chat.TypingText					"0 191 255 255"
 
-		Panel.FgColor					"Gray"
+		Panel.FgColor					"Grey"
 		Panel.BgColor					"Blank"
 
 		HTML.BgColor					"Blank"
@@ -377,22 +377,22 @@ Scheme
 		PropertySheet.SelectedTextColor		"AntsHUDWhite"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"Base Color"
-		RadioButton.SelectedTextColor	"Base Color"
+		RadioButton.TextColor			"0 191 255 255"
+		RadioButton.SelectedTextColor	"0 191 255 255"
 
-		RichText.TextColor				"Gray"
+		RichText.TextColor				"Grey"
 		RichText.BgColor				"Blank"
-		RichText.SelectedTextColor		"Gray"
+		RichText.SelectedTextColor		"Grey"
 		RichText.SelectedBgColor		"Red"
 
-		ScrollBarButton.FgColor				"Gray"
+		ScrollBarButton.FgColor				"Grey"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"Gray"
+		ScrollBarButton.ArmedFgColor		"Grey"
 		ScrollBarButton.ArmedBgColor		"Blank"
 		ScrollBarButton.DepressedFgColor	"Black"
 		ScrollBarButton.DepressedBgColor	"Blank"
 
-		ScrollBarSlider.FgColor				"Gray"		// nob color
+		ScrollBarSlider.FgColor				"Grey"		// nob color
 		ScrollBarSlider.BgColor				"Blank"		// slider background color
 
 		SectionedListPanel.HeaderTextColor	"AntsHUDWhite"
@@ -403,22 +403,22 @@ Scheme
 		SectionedListPanel.BrightTextColor	"AntsHUDWhite"
 		SectionedListPanel.SelectedTextColor			"Black"
 		SectionedListPanel.SelectedBgColor				"Red"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"Base Color"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"0 191 255 255"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 32"
 
 		Slider.NobColor					"108 108 108 255"
 		Slider.TextColor				"127 140 127 255"
 		Slider.TrackColor				"31 31 31 255"
 		Slider.DisabledTextColor1		"117 117 117 255"
-		Slider.DisabledTextColor2		"ButtonBG"
+		Slider.DisabledTextColor2		"ButtonBGDark"
 
-		TextEntry.TextColor				"Gray"
+		TextEntry.TextColor				"Grey"
 		TextEntry.BgColor				"Blank"
-		TextEntry.CursorColor			"Gray"
-		TextEntry.DisabledTextColor		"Gray"
+		TextEntry.CursorColor			"Grey"
+		TextEntry.DisabledTextColor		"Grey"
 		TextEntry.DisabledBgColor		"Blank"
 		TextEntry.SelectedTextColor		"AntsHUDWhite"
-		TextEntry.SelectedBgColor		"Gray"
+		TextEntry.SelectedBgColor		"Grey"
 		TextEntry.OutOfFocusSelectedBgColor	"Blank"
 		TextEntry.FocusEdgeColor		"Blank"
 
@@ -456,7 +456,7 @@ Scheme
 		"TeamRed"					"255 64 64 255"
 		"TeamBlue"					"153 204 255 255"
 
-		"MapDescriptionText"		"Gray" // the text used in the map description window
+		"MapDescriptionText"		"Grey" // the text used in the map description window
 		"HudIcon_Green"				"0 160 0 255"
 		"HudIcon_Red"				"160 0 0 255"
 
@@ -4273,7 +4273,7 @@ Scheme
 			"1"
 			{
 				"name"	"Entypo"
-				"tall"	"30"
+				"tall"	"28"
 				"additive"	"0"
 				"antialias"	"1"
 			}
@@ -4346,27 +4346,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4379,27 +4379,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "4 1"
 				}
 			}
@@ -4408,27 +4408,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "4 1"
 				}
 			}
@@ -4437,27 +4437,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "4 1"
 				}
 			}
@@ -4469,27 +4469,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "4 1"
 				}
 			}
@@ -4498,27 +4498,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "4 1"
 				}
 			}
@@ -4527,27 +4527,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "4 1"
 				}
 			}
@@ -4559,7 +4559,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 4"
 				}
 			}
@@ -4568,7 +4568,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4577,7 +4577,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4586,7 +4586,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 			}
@@ -4598,17 +4598,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 0"
 				}
 			}
@@ -4617,17 +4617,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 0"
 				}
 			}
@@ -4636,17 +4636,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 0"
 				}
 			}
@@ -4655,17 +4655,17 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "0 0"
 				}
 				"2"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "1 0"
 				}
 				"3"
 				{
-					"color" "Base Color"
+					"color" "0 191 255 255"
 					"offset" "2 0"
 				}
 			}
@@ -5216,7 +5216,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 1"
 				}
 			}
@@ -5225,7 +5225,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "1 0"
 				}
 			}
@@ -5234,7 +5234,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -5243,7 +5243,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -5295,7 +5295,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "0 1"
 				}
 			}
@@ -5304,7 +5304,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "1 0"
 				}
 			}
@@ -5494,7 +5494,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "0 1"
 				}
 			}
@@ -5503,7 +5503,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "1 0"
 				}
 			}
@@ -5512,7 +5512,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "0 0"
 				}
 			}
@@ -5521,7 +5521,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "0 0"
 				}
 			}
@@ -5542,7 +5542,7 @@ Scheme
 			}
 		}
 		
-		GrayDialogBorder
+		GreyDialogBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -5735,7 +5735,7 @@ Scheme
 			"draw_corner_height" 	"2"	
 		}
 		
-		BackpackItemGrayedOut
+		BackpackItemGreyedOut
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -6745,7 +6745,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "0 1"
 				}
 			}
@@ -6754,7 +6754,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "1 0"
 				}
 			}
@@ -6763,7 +6763,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "0 0"
 				}
 			}
@@ -6772,7 +6772,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDDarkGray"
+					"color" "AntsHUDDarkGrey"
 					"offset" "0 0"
 				}
 			}
@@ -6785,7 +6785,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 1"
 				}
 			}
@@ -6794,7 +6794,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "1 0"
 				}
 			}
@@ -6803,7 +6803,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -6812,7 +6812,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -7102,7 +7102,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 1"
 				}
 			}
@@ -7111,7 +7111,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "1 0"
 				}
 			}
@@ -7120,7 +7120,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -7129,7 +7129,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -7142,7 +7142,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 1"
 				}
 			}
@@ -7151,7 +7151,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "1 0"
 				}
 			}
@@ -7160,7 +7160,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -7169,7 +7169,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "AntsHUDGray"
+					"color" "AntsHUDGrey"
 					"offset" "0 0"
 				}
 			}
@@ -7197,7 +7197,7 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		ReplayGrayDialogBorder
+		ReplayGreyDialogBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"

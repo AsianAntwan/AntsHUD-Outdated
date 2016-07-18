@@ -76,7 +76,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "0 191 255 255"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	"ArmoryLabel"
 	{
@@ -175,9 +175,9 @@
 			"enabled"		"1"
 			"fgcolor"		"AntsHUDWhite"
 			"wrap"			"1"
-			"highlight_color"	"Base Color"
+			"highlight_color"	"AntsHUDDeepSkyBlue"
 			"itemset_color"		"216 244 9 255"
-			"link_color" 		"0 191 255 255"
+			"link_color" 		"AntsHUDDeepSkyBlue"
 			"image_up_arrow"				"scroll_up_off"
 			"image_up_arrow_mouseover"		"scroll_up_on"
 			"image_down_arrow"				"scroll_down_off"
@@ -343,7 +343,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	
 	"NextPageButton"

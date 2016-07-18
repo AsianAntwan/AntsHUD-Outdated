@@ -31,7 +31,7 @@
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
-		"itemcountcolor"			"Base Color"
+		"itemcountcolor"			"AntsHUDDeepSkyBlue"
 		"itemcountcolor_noitems"	"117 107 94 255"
 	}
 	

@@ -71,9 +71,9 @@ Scheme
 		FrameSystemButton.BgColor						"Blank"
 		FrameSystemButton.Icon							""
 		FrameSystemButton.DisabledIcon					""
-		FrameTitleBar.TextColor							"Base Color"
+		FrameTitleBar.TextColor							"AntsHUDDeepSkyBlue"
 		FrameTitleBar.BgColor							"Blank"
-		FrameTitleBar.DisabledTextColor					"Base Color"
+		FrameTitleBar.DisabledTextColor					"AntsHUDDeepSkyBlue"
 		FrameTitleBar.DisabledBgColor					"Blank"
 		GraphPanel.FgColor								"AntsHUDWhite"
 		GraphPanel.BgColor								"TransparentBlack"
@@ -122,14 +122,14 @@ Scheme
 		SectionedListPanel.BrightTextColor				"AntsHUDWhite"
 		SectionedListPanel.BgColor						"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"Base Color"
+		SectionedListPanel.SelectedBgColor				"AntsHUDDeepSkyBlue"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"255 155 0 128"
 		Slider.NobColor									"108 108 108 255"
 		Slider.TextColor								"180 180 180 255"
 		Slider.TrackColor								"31 31 31 255"
 		Slider.DisabledTextColor1						"117 117 117 255"
-		Slider.DisabledTextColor2						"ButtonBG"
+		Slider.DisabledTextColor2						"ButtonBGDark"
 		TextEntry.TextColor								"TFTextBright"
 		TextEntry.BgColor								"ListBG"
 		TextEntry.CursorColor							"OffWhite"
@@ -154,7 +154,7 @@ Scheme
 		Console.DevTextColor							"AntsHUDWhite"
 		NewGame.TextColor								"AntsHUDWhite"
 		NewGame.FillColor								"0 0 0 255"
-		NewGame.SelectionColor							"Base Color"
+		NewGame.SelectionColor							"AntsHUDDeepSkyBlue"
 		NewGame.DisabledColor							"128 128 128 196"
 		TFColors.ChatTextYellow							"251 235 202 255"
 		TFColors.ChatTextTeamBlue						"153 204 255 255"
@@ -268,7 +268,51 @@ Scheme
 				"symbol"		"1"
 			}
 		}
-
+		
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"7"
+				"weight"	"0"
+				"yres"		"480 599"
+				"symbol"	"1"
+			}
+			"2"
+			{
+				"name"		"Marlett"
+				"tall"		"9"
+				"weight"	"0"
+				"yres"		"600 767"
+				"symbol"	"1"
+			}
+			"3"
+			{
+				"name"		"Marlett"
+				"tall"		"11"
+				"weight"	"0"
+				"yres"		"768 1023"
+				"symbol"	"1"
+			}
+			"4"
+			{
+				"name"		"Marlett"
+				"tall"		"13"
+				"weight"	"0"
+				"yres"		"1024 1199"
+				"symbol"	"1"
+			}
+			"5"
+			{
+				"name"		"Marlett"
+				"tall"		"17"
+				"weight"	"0"
+				"yres"		"1200 10000"
+				"symbol"	"1"
+			}
+		}
+		
 		"ChatFont"
 		{
 			"1"

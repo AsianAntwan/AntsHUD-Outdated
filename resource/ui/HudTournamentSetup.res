@@ -130,8 +130,8 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "AntsHUDWhite"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "AntsHUDDeepSkyBlue"
+		"depressedFgColor_override" "AntsHUDDeepSkyBlue"
 	}
 
 	"TournamentReadyButton"
@@ -162,7 +162,7 @@
 		"paintbackground"	"0"
 			
 		"defaultFgColor_override" "AntsHUDWhite"
-		"armedFgColor_override" "Button Color"
-		"depressedFgColor_override" "Button Color"
+		"armedFgColor_override" "AntsHUDDeepSkyBlue"
+		"depressedFgColor_override" "AntsHUDDeepSkyBlue"
 	}
 }

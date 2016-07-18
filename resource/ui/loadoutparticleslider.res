@@ -65,7 +65,7 @@
 		"use_proportional_insets"	"0"
 		"Default"			"0"
 		"Command"			"particle_use_head_clicked"
-		"fgcolor_override"  "Base Color"
+		"fgcolor_override"  "AntsHUDDeepSkyBlue"
 	}
 	
 	"HatParticleSlider"
@@ -84,6 +84,6 @@
 		"visible"			"0"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"fgcolor_override"  "Base Color"
+		"fgcolor_override"  "AntsHUDDeepSkyBlue"
 	}
 }

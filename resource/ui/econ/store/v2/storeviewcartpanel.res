@@ -162,7 +162,7 @@
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BGHeader"
+		"fillcolor"		"BGAnyDarker"
 		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
@@ -176,7 +176,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"BGFooter"
+		"fillcolor"		"BGAnyDarker"
 		"tileImage"		"1"
 	}			
 	"FooterLine"

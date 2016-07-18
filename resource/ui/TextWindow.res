@@ -124,9 +124,9 @@
 		
 		"fgcolor"					"AntsHUDWhite"
 		"defaultFgColor_override" 	"AntsHUDWhite"
-		"armedFgColor_override"		"AntsHUDGray"
-		"depressedFgColor_override" "AntsHUDGray"
-		"selectedFgColor_override" 	"AntsHUDGray"
+		"armedFgColor_override"		"AntsHUDGrey"
+		"depressedFgColor_override" "AntsHUDGrey"
+		"selectedFgColor_override" 	"AntsHUDGrey"
 	}
 	
 	"MenuBG"

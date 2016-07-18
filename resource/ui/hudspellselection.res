@@ -49,7 +49,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	
 	"ActionText"

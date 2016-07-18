@@ -98,7 +98,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "0 191 255 255"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	"ClassLabel"
 	{
@@ -298,13 +298,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGrey"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -359,13 +359,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGrey"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -387,7 +387,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	
 	"NextPageButton"
@@ -415,13 +415,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGrey"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"

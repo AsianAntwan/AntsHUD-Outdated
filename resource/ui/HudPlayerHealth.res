@@ -121,7 +121,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}		
 	"PlayerStatusMilkImage"
 	{
@@ -136,7 +136,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatusMarkedForDeathImage"
 	{
@@ -151,7 +151,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatusMarkedForDeathSilentImage"
 	{
@@ -166,7 +166,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/marked_for_death"
-		"fgcolor"		"AntsHUDGray"	
+		"fgcolor"		"AntsHUDGrey"	
 	}
 	
 	"PlayerStatus_MedicUberBulletResistImage"
@@ -182,7 +182,7 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"AntsHUDGrey"
 	}	
 	
 	"PlayerStatus_MedicUberBlastResistImage"
@@ -198,7 +198,7 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"AntsHUDGrey"
 	}	
 	
 	"PlayerStatus_MedicUberFireResistImage"
@@ -214,7 +214,7 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"AntsHUDGrey"
 	}
 	
 	"PlayerStatus_MedicSmallBulletResistImage"
@@ -230,7 +230,7 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"AntsHUDGrey"
 	}	
 	
 	"PlayerStatus_MedicSmallBlastResistImage"
@@ -246,7 +246,7 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_explosion_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"AntsHUDGrey"
 	}	
 	
 	"PlayerStatus_MedicSmallFireResistImage"
@@ -262,7 +262,7 @@
 		"enabled" 		"1"
 		"scaleImage" 	"1"
 		"image"			"../HUD/defense_buff_fire_blue"
-		"fgcolor" 		"AntsHUDGray"
+		"fgcolor" 		"AntsHUDGrey"
 	}
 	
 		"PlayerStatus_WheelOfDoom"
@@ -278,7 +278,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../signs/death_wheel_whammy"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 		"PlayerStatus_SoldierOffenseBuff"
 	{
@@ -293,7 +293,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 
 	"PlayerStatus_SoldierDefenseBuff"
@@ -309,7 +309,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 
 	"PlayerStatus_SoldierHealOnHitBuff"
@@ -325,7 +325,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	
 	"PlayerStatus_SpyMarked"
@@ -341,7 +341,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			""
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	
 	"PlayerStatus_Parachute"
@@ -357,7 +357,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			""
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	
 	"PlayerStatus_RuneStrength"
@@ -373,7 +373,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_strength_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneHaste"
 	{
@@ -388,7 +388,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_haste_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneRegen"
 	{
@@ -403,7 +403,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_regen_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneResist"
 	{
@@ -418,7 +418,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_resist_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneVampire"
 	{
@@ -433,7 +433,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_vampire_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneReflect"
 	{
@@ -448,7 +448,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_reflect_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RunePrecision"
 	{
@@ -463,7 +463,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_precision_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneAgility"
 	{
@@ -478,7 +478,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_agility_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneKnockout"
 	{
@@ -493,7 +493,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_knockout_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneKing"
 	{
@@ -508,7 +508,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_king_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RunePlague"
 	{
@@ -523,7 +523,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_plague_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 	"PlayerStatus_RuneSupernova"
 	{
@@ -538,6 +538,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../Effects/powerup_supernova_hud"
-		"fgcolor"		"AntsHUDGray"
+		"fgcolor"		"AntsHUDGrey"
 	}
 }

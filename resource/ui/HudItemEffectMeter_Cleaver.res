@@ -10,7 +10,7 @@
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}
 	
 	"ItemEffectMeterBG"
@@ -52,7 +52,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"NeutraDisp16"
-		"fgcolor_override"		"0 191 255 255"
+		"fgcolor_override"		"AntsHUDDeepSkyBlue"
 	}
 
 	"ItemEffectMeter"

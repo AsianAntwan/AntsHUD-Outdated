@@ -61,7 +61,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fgcolor_override" "0 191 255 255"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	"ClassLabel"
 	{

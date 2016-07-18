@@ -194,10 +194,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"AntsHUDGray"
-			"defaultFgColor_override" "AntsHUDGray"
-			"armedFgColor_override" "AntsHUDGray"
-			"depressedFgColor_override" "AntsHUDGray"
+			"fgcolor"			"AntsHUDGrey"
+			"defaultFgColor_override" "AntsHUDGrey"
+			"armedFgColor_override" "AntsHUDGrey"
+			"depressedFgColor_override" "AntsHUDGrey"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

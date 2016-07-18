@@ -18,7 +18,7 @@
 		"draw_corner_width" "0"
 		"draw_corner_height" "0"
 
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}		
@@ -44,7 +44,7 @@
 		"color_warning"			"TimerProgress.Warning"
 		"percent_warning"		"0.75"
 		
-		if_comp
+		if_match
 		{
 			"visible"	"0"
 		}
@@ -67,7 +67,7 @@
 		"wrap"			"0"
 		"font"			"Avenir12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"30"
@@ -86,10 +86,10 @@
 		"tall"			"3"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"AntsHUDDarkGray"	
+		"fillcolor"		"AntsHUDDarkGrey"	
 		"PaintBackgroundType"	"0"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}
@@ -99,7 +99,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"OvertimeLabel"
 		"xpos"			"25"
-		"ypos"			"34"
+		"ypos"			"18"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"20"
@@ -112,7 +112,7 @@
 		"wrap"			"0"
 		"font"			"Avenir12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"30"
@@ -131,10 +131,10 @@
 		"tall"			"3"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"AntsHUDDarkGray"	
+		"fillcolor"		"AntsHUDDarkGrey"	
 		"PaintBackgroundType"	"0"
 	
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}	
@@ -157,7 +157,7 @@
 		"wrap"			"0"
 		"font"			"Avenir12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"30"
@@ -179,7 +179,7 @@
 		"fillcolor"		"TransparentBlack"	
 		"PaintBackgroundType"	"0"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -202,7 +202,7 @@
 		"wrap"			"0"
 		"font"			"Avenir12"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"30"
@@ -224,7 +224,7 @@
 		"fillcolor"		"TransparentBlack"	
 		"PaintBackgroundType"	"0"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}		
@@ -247,7 +247,7 @@
 		"wrap"			"0"
 		"font"			"Avenir14"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"30"
@@ -269,7 +269,7 @@
 		"fillcolor"		"TransparentBlack"	
 		"PaintBackgroundType"	"0"
 		
-		if_comp
+		if_match
 		{
 			"wide"	"0"
 		}	

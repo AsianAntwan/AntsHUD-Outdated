@@ -18,7 +18,7 @@
 		"teambg_2"		"../hud/death_panel_red_bg"
 		"teambg_3"		"../hud/death_panel_blue_bg"
 
-		if_comp
+		if_match
 		{
 			"ypos"	"130"
 		}
@@ -42,7 +42,7 @@
 		"labelText"		"#TF_teamswitch_attackers"
 		"textAlignment"		"North"
 		
-		if_comp
+		if_match
 		{
 			"ypos"	"150"
 		}
@@ -68,7 +68,7 @@
 		"labelText"		""
 		"textAlignment"		"North"
 
-		if_comp
+		if_match
 		{
 			"ypos"	"165"
 		}
@@ -89,7 +89,7 @@
 		"image"			"../hud/hud_icon_attack"
 		"scaleImage"		"1"
 
-		if_comp
+		if_match
 		{
 			"ypos"	"155"
 		}
@@ -107,7 +107,7 @@
 		"visible"			"0"
 		"enabled"			"1"
 
-		if_comp
+		if_match
 		{
 			"ypos"	"120"
 		}
@@ -245,7 +245,7 @@
 		"enabled"		"1"
 		"image"			"../HUD/arrow_big"
 
-		if_comp
+		if_match
 		{
 			"ypos"	"45"
 		}

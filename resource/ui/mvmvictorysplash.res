@@ -50,7 +50,7 @@
 			"ypos"			"12"
 			"wide"			"300"
 			"tall"			"50"
-			"fgcolor"		"Base Color"
+			"fgcolor"		"AntsHUDDeepSkyBlue"
 		}
 	}
 }

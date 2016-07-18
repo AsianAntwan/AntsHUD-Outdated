@@ -2,7 +2,7 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_comp
+		if_match
 		{
 			"zpos"		"5"
 		}
@@ -21,7 +21,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-.7"
@@ -51,7 +51,7 @@
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 
@@ -77,7 +77,7 @@
 		"visible" 			"1"
 		"enabled" 			"1"
 		
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.77"
@@ -86,7 +86,7 @@
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
 			"PositiveColor"			"AntsHUDWhite"
-			"NegativeColor"			"AntsHUDGray"
+			"NegativeColor"			"AntsHUDGrey"
 			"delta_lifetime"		"1.5"
 			"delta_item_font"		"HudFontMediumSmall"
 		}		
@@ -107,7 +107,7 @@
 			"textAlignment"		"center"
 			"labelText"			"0:00"
 			
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 

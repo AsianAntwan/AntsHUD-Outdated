@@ -10,7 +10,7 @@
 		"wide"			"500"
 		"tall"			"500"
 		"MeterFG"		"AntsHUDWhite"
-		"MeterBG"		"Gray"
+		"MeterBG"		"Grey"
 	}
 	
 	"ItemEffectMeterBG"

@@ -2565,7 +2565,7 @@
 	{
 		"ControlName"		"CTFFooter"
 		"fieldName"			"Footer"
-		"bgcolor"			"AntsHUDDarkGray"
+		"bgcolor"			"AntsHUDDarkGrey"
 		"paintbackground"	"1"
 		"tall"				"100"
 		"tall_lodef"				"60"

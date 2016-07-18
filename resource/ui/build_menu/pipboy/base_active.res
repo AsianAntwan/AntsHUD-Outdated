@@ -93,7 +93,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ModeLabel"
 		"font"			"DefaultSmall"
-		"fgcolor"		"AntsHUDDarkGray"
+		"fgcolor"		"AntsHUDDarkGrey"
 		"xpos"			"33"
 		"ypos"			"17"
 		"zpos"			"1"

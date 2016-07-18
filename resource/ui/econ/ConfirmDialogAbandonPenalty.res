@@ -35,7 +35,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	"AbandonIcon"
 	{
@@ -67,7 +67,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	"CancelButton"
 	{
@@ -93,9 +93,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"
@@ -127,9 +127,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
 		"depressedFgColor_override" "AntsHUDWhite"

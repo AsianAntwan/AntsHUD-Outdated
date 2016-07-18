@@ -33,7 +33,7 @@
 		"item_controls_yoffset"	"2"
 
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"Base Color"
+		"item_backdrop_color"				"AntsHUDDeepSkyBlue"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -212,9 +212,9 @@
 		
 		"Button"
 		{
-			"defaultBgColor_override"	"ButtonBG"
-			"armedBgColor_override"		"Button Color"
-			"depressedBgColor_override"	"Button Color"
+			"defaultBgColor_override"	"ButtonBGDark"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+			"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"armedFgColor_override"		"AntsHUDWhite"
 			"depressedFgColor_override"	"AntsHUDWhite"
@@ -255,9 +255,9 @@
 		
 		"Button"
 		{
-			"defaultBgColor_override"	"ButtonBG"
-			"armedBgColor_override"		"Button Color"
-			"depressedBgColor_override"	"Button Color"
+			"defaultBgColor_override"	"ButtonBGDark"
+			"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+			"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 			"defaultFgColor_override"	"AntsHUDWhite"
 			"armedFgColor_override"		"AntsHUDWhite"
 			"depressedFgColor_override"	"AntsHUDWhite"
@@ -370,13 +370,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGrey"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -398,7 +398,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "Base Color"
+		"fgcolor_override" "AntsHUDDeepSkyBlue"
 	}
 	
 	"NextPageButton"
@@ -425,13 +425,13 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGrey"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
@@ -567,10 +567,10 @@
 			"textAlignment"		"south-west"
 			"scaleImage"		"1"
 			
-			"fgcolor"			"AntsHUDGray"
-			"defaultFgColor_override" "AntsHUDGray"
-			"armedFgColor_override" "AntsHUDGray"
-			"depressedFgColor_override" "AntsHUDGray"
+			"fgcolor"			"AntsHUDGrey"
+			"defaultFgColor_override" "AntsHUDGrey"
+			"armedFgColor_override" "AntsHUDGrey"
+			"depressedFgColor_override" "AntsHUDGrey"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -783,13 +783,13 @@
 		
 		"defaultBgColor_override"	"25 25 25 255"
 		"armedBgColor_override"		"25 25 25 255"
-		"defaultBgColor_override"	"ButtonBG"
-		"armedBgColor_override"		"Button Color"
-		"depressedBgColor_override"	"Button Color"
+		"defaultBgColor_override"	"ButtonBGDark"
+		"armedBgColor_override"		"AntsHUDDeepSkyBlue"
+		"depressedBgColor_override"	"AntsHUDDeepSkyBlue"
 		
 		"defaultFgColor_override"	"AntsHUDWhite"
 		"armedFgColor_override" 	"AntsHUDWhite"
-		"depressedFgColor_override" "AntsHUDGray"
+		"depressedFgColor_override" "AntsHUDGrey"
 		
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
